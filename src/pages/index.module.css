@@ -1,25 +1,19 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  min-height: 640px;
-  padding: 14rem 0 4rem;
-  text-align: center;
+  min-height: 580px;
+  padding: 8rem 0 4rem;
   position: relative;
   overflow: hidden;
   background:
     linear-gradient(
-      180deg,
-      rgba(5, 10, 24, 0.18) 0%,
-      rgba(5, 10, 24, 0.28) 42%,
-      rgba(5, 10, 24, 0.78) 100%
+      90deg,
+      rgba(15, 18, 28, 0.94) 0%,
+      rgba(30, 25, 48, 0.84) 48%,
+      rgba(25, 28, 40, 0.62) 100%
     ),
     url('/img/loyalty-guys-banner.png') center top / cover no-repeat;
   color: #fff;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .heroBanner :global(.container) {
@@ -27,50 +21,188 @@
   z-index: 1;
 }
 
+.heroLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 3rem;
+  align-items: center;
+}
+
+.heroCopy {
+  max-width: 760px;
+}
+
+.eyebrow {
+  color: var(--ifm-color-primary);
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
 .heroTitle {
-  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.65);
+  font-size: 3.9rem;
+  line-height: 1.08;
+  margin: 0;
+  max-width: 720px;
 }
 
 .heroSubtitle {
-  color: rgba(255, 255, 255, 0.92);
-  font-weight: 700;
-  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.7);
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    min-height: 520px;
-    padding: 10rem 1.5rem 3rem;
-    background-position: center top;
-  }
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.18rem;
+  line-height: 1.72;
+  margin: 1.35rem 0 0;
+  max-width: 640px;
 }
 
 .buttons {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.heroPanel {
+  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(2, 8, 23, 0.28);
+  color: #111827;
+  padding: 1rem;
+}
+
+.panelLabel {
+  color: #6b7280;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin: 0.25rem 0 0.75rem;
+  text-transform: uppercase;
+}
+
+.popularGuide {
+  align-items: center;
+  border-top: 1px solid #e5e7eb;
+  color: #111827;
+  display: flex;
+  font-weight: 800;
+  justify-content: space-between;
+  padding: 1rem 0.25rem;
+}
+
+.popularGuide:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
 
 .docGrid {
-  padding: 3rem 0;
+  padding: 4.5rem 0;
+}
+
+.sectionHeader {
+  max-width: 720px;
+}
+
+.sectionHeader h2 {
+  font-size: 2.2rem;
+}
+
+.sectionHeader p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .card {
-  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: 8px;
   color: var(--ifm-font-color-base);
-  font-weight: 700;
-  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-height: 178px;
+  padding: 1.35rem;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.card strong {
+  font-size: 1.12rem;
+}
+
+.card span:last-child {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.58;
+}
+
+.cardTag {
+  color: var(--ifm-color-primary);
+  font-size: 0.78rem;
+  font-weight: 800;
 }
 
 .card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 14px 36px rgba(17, 24, 39, 0.08);
   color: var(--ifm-color-primary);
   text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.referenceBand {
+  background: var(--ifm-color-emphasis-100);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding: 3.2rem 0;
+}
+
+.referenceLayout {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.referenceLayout h2 {
+  margin: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    min-height: auto;
+    padding: 7rem 0 3rem;
+  }
+
+  .heroLayout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+
+  .referenceLayout {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }

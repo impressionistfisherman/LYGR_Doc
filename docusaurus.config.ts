@@ -9,7 +9,7 @@ const githubRepoUrl = `https://github.com/${githubRepository}`;
 
 const config: Config = {
   title: 'LYGR Docs',
-  tagline: 'LYGR documentation',
+  tagline: 'Minecraft RPG Server Guide',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -46,18 +46,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: `${githubRepoUrl}/tree/main/`,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: `${githubRepoUrl}/tree/main/`,
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -82,9 +71,8 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Guides',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: githubRepoUrl,
           label: 'GitHub',
@@ -96,37 +84,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Guides',
           items: [
             {
-              label: 'Docs',
+              label: 'Apotheosis',
               to: '/docs/apotheosis/overview',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Silent Gear',
+              to: '/docs/silent-gear/overview',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Create',
+              to: '/docs/create/overview',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Reference',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'All Guides',
+              to: '/docs/apotheosis/overview',
             },
             {
               label: 'GitHub',
