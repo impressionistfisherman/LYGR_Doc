@@ -57,7 +57,7 @@ const docSections = [
     tag: '직업',
   },
   {
-    title: 'Boss & Dungeons',
+    title: 'Cataclysm',
     description: 'Cataclysm, 구조물, 던전 모드의 탐험 순서와 보상.',
     to: '/docs/cataclysm/overview',
     tag: '탐험',
