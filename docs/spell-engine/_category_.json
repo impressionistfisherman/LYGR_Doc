@@ -1,0 +1,8 @@
+{
+  "label": "마법 시스템 (Spell Engine)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Spell Engine + Spell Power 모드로 구성된 마법 시전 시스템 완전 가이드입니다."
+  }
+}
