@@ -14,6 +14,8 @@ const docSections = [
   {title: '장비 제작', to: '/docs/silent-gear/overview'},
   {title: '자동화', to: '/docs/create/overview'},
   {title: '산업 자동화', to: '/docs/mekanism/overview'},
+  {title: '디지털 저장', to: '/docs/ae2/overview'},
+  {title: '던전 탐험', to: '/docs/idas/overview'},
 ];
 
 function HomepageHeader() {
@@ -21,10 +23,12 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+          Minecraft RPG Server Guide
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
