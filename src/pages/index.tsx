@@ -9,13 +9,13 @@ import styles from './index.module.css';
 
 const docSections = [
   {title: 'Apotheosis', to: '/docs/apotheosis/overview'},
-  {title: '스킬 시스템', to: '/docs/skill-system/overview'},
-  {title: '마법 시스템', to: '/docs/spell-engine/overview'},
-  {title: '장비 제작', to: '/docs/silent-gear/overview'},
-  {title: '자동화', to: '/docs/create/overview'},
-  {title: '산업 자동화', to: '/docs/mekanism/overview'},
-  {title: '디지털 저장', to: '/docs/ae2/overview'},
-  {title: '던전 탐험', to: '/docs/idas/overview'},
+  {title: 'skill-system', to: '/docs/skill-system/overview'},
+  {title: 'spell-engine', to: '/docs/spell-engine/overview'},
+  {title: 'silent-gear', to: '/docs/silent-gear/overview'},
+  {title: 'create', to: '/docs/create/overview'},
+  {title: 'mekanism', to: '/docs/mekanism/overview'},
+  {title: 'ae2', to: '/docs/ae2/overview'},
+  {title: 'idas', to: '/docs/idas/overview'},
 ];
 
 function HomepageHeader() {

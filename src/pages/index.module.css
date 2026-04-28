@@ -4,8 +4,8 @@
  */
 
 .heroBanner {
-  min-height: 520px;
-  padding: 7rem 0 4rem;
+  min-height: 640px;
+  padding: 14rem 0 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -16,7 +16,7 @@
       rgba(5, 10, 24, 0.28) 42%,
       rgba(5, 10, 24, 0.78) 100%
     ),
-    url('/img/loyalty-guys-banner.png') center 34% / cover no-repeat;
+    url('/img/loyalty-guys-banner.png') center top / cover no-repeat;
   color: #fff;
   display: flex;
   align-items: flex-end;
@@ -39,8 +39,8 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    min-height: 420px;
-    padding: 5rem 1.5rem 3rem;
+    min-height: 520px;
+    padding: 10rem 1.5rem 3rem;
     background-position: center top;
   }
 }
