@@ -3,10 +3,18 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+
+const docSections = [
+  {title: 'Apotheosis', to: '/docs/apotheosis/01-overview'},
+  {title: '스킬 시스템', to: '/docs/skill-system/01-overview'},
+  {title: '마법 시스템', to: '/docs/spell-engine/01-overview'},
+  {title: '장비 제작', to: '/docs/silent-gear/01-overview'},
+  {title: '자동화', to: '/docs/create/01-overview'},
+  {title: '산업 자동화', to: '/docs/mekanism/01-overview'},
+];
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -20,8 +28,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/silent-gear/01-overview">
+            문서 바로가기
           </Link>
         </div>
       </div>
@@ -37,7 +45,18 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <section className={styles.docGrid}>
+          <div className="container">
+            <Heading as="h2">문서 목록</Heading>
+            <div className={styles.cards}>
+              {docSections.map((section) => (
+                <Link className={styles.card} to={section.to} key={section.to}>
+                  {section.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
