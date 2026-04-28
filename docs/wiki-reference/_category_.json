@@ -1,0 +1,8 @@
+{
+  "label": "위키 참고 모드",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "공략보다 구조물 목록 및 데이터 정리 위주로 참고하는 모드들입니다. Dungeons Arise, Dungeons and Taverns의 전체 구조물 목록과 탐험 팁을 다룹니다."
+  }
+}

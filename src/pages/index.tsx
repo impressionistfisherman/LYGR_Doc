@@ -9,13 +9,17 @@ import styles from './index.module.css';
 
 const docSections = [
   {title: 'Apotheosis', to: '/docs/apotheosis/overview'},
-  {title: 'skill-system', to: '/docs/skill-system/overview'},
-  {title: 'spell-engine', to: '/docs/spell-engine/overview'},
-  {title: 'silent-gear', to: '/docs/silent-gear/overview'},
-  {title: 'create', to: '/docs/create/overview'},
-  {title: 'mekanism', to: '/docs/mekanism/overview'},
-  {title: 'ae2', to: '/docs/ae2/overview'},
-  {title: 'idas', to: '/docs/idas/overview'},
+  {title: 'RPG Skill Trees', to: '/docs/skill-system/overview'},
+  {title: 'Spell Power&engine', to: '/docs/spell-engine/overview'},
+  {title: 'Silent Gear', to: '/docs/silent-gear/overview'},
+  {title: 'Create', to: '/docs/create/overview'},
+  {title: 'Mekanism', to: '/docs/mekanism/overview'},
+  {title: 'Applied Energistics2', to: '/docs/ae2/overview'},
+  {title: 'Integrated Dungeons And Structures', to: '/docs/idas/overview'},
+  {title: 'Lcataclysm', to: '/docs/cataclysm/overview'},
+  {title: 'RPG Classes', to: '/docs/classes/class-overview'},
+  {title: 'Weapon and Others', to: '/docs/guide-recommended/archers-armory-arsenal'},
+  {title: 'Dungeons mods', to: '/docs/wiki-reference/dungeons-arise'},
 ];
 
 function HomepageHeader() {
