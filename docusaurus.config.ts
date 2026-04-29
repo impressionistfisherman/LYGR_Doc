@@ -94,6 +94,18 @@ const config: Config = {
           label: '유저 가이드',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'setupGuideSidebar',
+          position: 'left',
+          label: '설치 가이드',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'faqSidebar',
+          position: 'left',
+          label: 'FAQ',
+        },
+        {
           href: githubRepoUrl,
           label: 'GitHub',
           position: 'right',
@@ -138,6 +150,23 @@ const config: Config = {
             {
               label: '엔드게임 로드맵',
               to: '/docs/user-guide/beginners-guide/endgame-roadmap',
+            },
+          ],
+        },
+        {
+          title: '설치 & 도움말',
+          items: [
+            {
+              label: '설치 가이드',
+              to: '/docs/setup-guide',
+            },
+            {
+              label: '성능 최적화',
+              to: '/docs/setup-guide/performance',
+            },
+            {
+              label: 'FAQ',
+              to: '/docs/faq',
             },
           ],
         },

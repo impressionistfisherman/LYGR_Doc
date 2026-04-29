@@ -1,0 +1,10 @@
+{
+  "label": "⚙️ 설치 & 설정 가이드",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "setup-guide/index"
+  }
+}
