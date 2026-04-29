@@ -94,11 +94,12 @@ function HomepageHeader() {
           <div className={styles.heroCopy}>
             <span className={styles.eyebrow}>LYGR Modpack Guide</span>
             <Heading as="h1" className={styles.heroTitle}>
-              ModPack 총정리
+              모팩 한판정리
             </Heading>
             <p className={styles.heroSubtitle}>
-              처음 시작하는 유저부터 엔드게임을 준비하는 유저까지, 진행 루트와
-              모드별 핵심 가이드를 한 곳에서 확인하세요.
+              처음 시작할 때 볼 것부터 엔드게임 준비까지.
+              <br />
+              진행 루트와 핵심 모드 가이드를 한 곳에 모았습니다.
             </p>
             <div className={styles.buttons}>
               <Link className="button button--primary button--lg" to="/docs/user-guide/beginners-guide">

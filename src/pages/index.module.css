@@ -60,7 +60,7 @@
 }
 
 .heroTitle {
-  font-size: 3.7rem;
+  font-size: 4rem;
   line-height: 1.1;
   margin: 0;
   max-width: 720px;
@@ -70,7 +70,7 @@
 .heroSubtitle {
   color: rgba(255, 255, 255, 0.84);
   font-size: 1.18rem;
-  line-height: 1.72;
+  line-height: 1.85;
   margin: 1.35rem 0 0;
   max-width: 640px;
 }
