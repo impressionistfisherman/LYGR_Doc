@@ -1,6 +1,5 @@
 import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
@@ -129,11 +128,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} | Guide Hub`}
-      description="LYGR Minecraft RPG server guide hub">
+      title="모드팩 가이드"
+      description="LYGR Minecraft RPG 모드팩의 진행 루트, 핵심 모드, 유저 가이드, 설치 정보를 한 곳에서 확인하세요.">
       <HomepageHeader />
       <main>
         <section className={styles.docGrid} id="guides">

@@ -9,7 +9,7 @@ const githubRepoUrl = `https://github.com/${githubRepository}`;
 
 const config: Config = {
   title: 'LYGR Docs',
-  tagline: 'Minecraft RPG Server Guide',
+  tagline: 'LYGR Minecraft RPG 모드팩 가이드',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -56,7 +56,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/lygr-social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
