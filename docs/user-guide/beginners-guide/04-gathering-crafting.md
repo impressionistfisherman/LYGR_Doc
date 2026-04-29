@@ -291,13 +291,13 @@ title: 4단계 — 채집 & 제작
 - 다이아몬드를 10개 이상 모았을 때
 - 지하 탐험이 안정적으로 가능할 때
 
-**자세한 내용:** [Silent Gear 가이드 →](../silent-gear-silents-gems/)
+**자세한 내용:** [Silent Gear 가이드 →](../../silent-gear/01-overview.md)
 
 ---
 
 ## 채굴 & 제작 마스터! 이제 세계를 탐험하자
 
-👉 [5단계: 탐험 & 구조물 →](./05-exploration)
+👉 [5단계: 탐험 & 구조물 →](./05-exploration.md)
 
 ---
 

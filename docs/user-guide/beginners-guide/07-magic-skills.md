@@ -138,7 +138,7 @@ title: 7단계 — 마법 & 스킬
 → 마나 회복 물약 사용
 ```
 
-**자세한 내용:** [Spell Engine 가이드 →](../spell-engine-spell-power/)
+**자세한 내용:** [Spell Engine 가이드 →](../../spell-engine/01-overview.md)
 
 ---
 
@@ -207,7 +207,7 @@ K키 → 스킬 트리 열기 → 포인트 투자
 | 탐험가 | 생존 40% + 채굴 40% + 전투 20% |
 | 올라운더 | 4개 트리 균등 분배 |
 
-**자세한 내용:** [Puffish Skills 가이드 →](../puffish-skills-skill-tree-rpg/)
+**자세한 내용:** [Puffish Skills 가이드 →](../../skill-system/01-overview.md)
 
 ---
 
@@ -247,4 +247,4 @@ K키 → 스킬 트리 열기 → 포인트 투자
 
 ## 마법 & 스킬 마스터! 이제 자동화 시대로
 
-👉 [8단계: 기술 발전 & 자동화 →](./08-tech-progression)
+👉 [8단계: 기술 발전 & 자동화 →](./08-tech-progression.md)

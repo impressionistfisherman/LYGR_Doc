@@ -336,7 +336,7 @@ C키 누르기 → 직업 창 열기 → 원하는 직업 선택
 - **Berserker** — 그냥 가서 때리면 됨. 가장 직관적
 - **Warrior** — 방패 + 검 스타일, 안정적인 생존
 
-**자세한 내용:** [RPG Classes 가이드 →](../rpg-classes-berserker-rogues-wizards-witcher/)
+**자세한 내용:** [RPG Classes 가이드 →](../../classes/01-class-overview.md)
 
 ---
 
@@ -354,7 +354,7 @@ C키 누르기 → 직업 창 열기 → 원하는 직업 선택
 일반(흰색) < 마법(파란색) < 희귀(노란색) < 영웅(분홍) < 신화(빨강)
 ```
 
-**자세한 내용:** [Apotheosis 가이드 →](../apotheosis-apothic-enchanting-spawners/)
+**자세한 내용:** [Apotheosis 가이드 →](../../apotheosis/01-overview.md)
 
 ---
 
@@ -393,4 +393,4 @@ C키 누르기 → 직업 창 열기 → 원하는 직업 선택
 
 ## 전투 마스터! 이제 마법도 배워보자
 
-👉 [7단계: 마법 & 스킬 →](./07-magic-skills)
+👉 [7단계: 마법 & 스킬 →](./07-magic-skills.md)

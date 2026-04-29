@@ -156,7 +156,7 @@ L자, T자 방향 변환 가능
 원료 투입             이동               가공              완성품
 ```
 
-**자세한 내용:** [Create 가이드 →](../create-mod/)
+**자세한 내용:** [Create 가이드 →](../../create/01-overview.md)
 
 ---
 
@@ -228,7 +228,7 @@ Mekanism 기계는 **에너지(Joule)**를 소비해.
 | 전기 활 | 에너지 충전식 강력한 활 |
 | 핵융합 반응로 | 엄청난 양의 에너지 생산 |
 
-**자세한 내용:** [Mekanism 가이드 →](../mekanism-mod/)
+**자세한 내용:** [Mekanism 가이드 →](../../mekanism/01-overview.md)
 
 ---
 
@@ -293,7 +293,7 @@ AE2는 **채널(Channel)** 시스템으로 기계 연결 개수를 제한해.
 4. 만들기 버튼 클릭 → 자동으로 재료 수집 후 제작!
 ```
 
-**자세한 내용:** [Applied Energistics 2 가이드 →](../applied-energistics-2/)
+**자세한 내용:** [Applied Energistics 2 가이드 →](../../ae2/01-overview.md)
 
 ---
 
@@ -336,4 +336,4 @@ AE2는 **채널(Channel)** 시스템으로 기계 연결 개수를 제한해.
 
 ## 기술 발전 완료! 이제 최종 목표를 향해
 
-👉 [9단계: 엔드게임 로드맵 →](./09-endgame-roadmap)
+👉 [9단계: 엔드게임 로드맵 →](./09-endgame-roadmap.md)
