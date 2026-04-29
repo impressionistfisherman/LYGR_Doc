@@ -68,10 +68,24 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Guides',
+          position: 'left',
+          items: [
+            {label: '가이드 홈', to: '/'},
+            {label: 'Apotheosis', to: '/docs/apotheosis/overview'},
+            {label: 'RPG Skill Trees', to: '/docs/skill-system/overview'},
+            {label: 'Spell Engine', to: '/docs/spell-engine/overview'},
+            {label: 'Silent Gear', to: '/docs/silent-gear/overview'},
+            {label: 'Create', to: '/docs/create/overview'},
+            {label: 'Mekanism', to: '/docs/mekanism/overview'},
+            {label: 'Applied Energistics 2', to: '/docs/ae2/overview'},
+            {label: 'Structures', to: '/docs/idas/overview'},
+            {label: 'Cataclysm', to: '/docs/cataclysm/overview'},
+            {label: 'RPG Classes', to: '/docs/classes/class-overview'},
+            {label: 'Weapons & Others', to: '/docs/guide-recommended/archers-armory-arsenal'},
+            {label: 'Dungeons mods', to: '/docs/wiki-reference/dungeons-arise'},
+          ],
         },
         {
           href: githubRepoUrl,
