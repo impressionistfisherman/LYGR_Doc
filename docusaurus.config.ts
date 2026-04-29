@@ -88,6 +88,12 @@ const config: Config = {
           ],
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'userGuideSidebar',
+          position: 'left',
+          label: '유저 가이드',
+        },
+        {
           href: githubRepoUrl,
           label: 'GitHub',
           position: 'right',
