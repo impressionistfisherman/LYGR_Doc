@@ -13,54 +13,63 @@ const docSections = [
     description: '월드 티어, 보스 드랍, 장비 어픽스와 소켓 강화 흐름.',
     to: '/docs/apotheosis/overview',
     tag: '강화',
+    group: '전투 성장',
   },
   {
     title: 'Silent Gear',
     description: '소재, 등급, 파츠 교체로 장비 성능을 설계하는 법.',
     to: '/docs/silent-gear/overview',
     tag: '장비',
+    group: '전투 성장',
   },
   {
     title: 'Create',
     description: '동력, 기계, 자동화 장치를 단계별로 구축하는 가이드.',
     to: '/docs/create/overview',
     tag: '자동화',
+    group: '기술 자동화',
   },
   {
     title: 'Mekanism',
     description: '광물 처리, 에너지, 기계와 장비 진행 루트.',
     to: '/docs/mekanism/overview',
     tag: '기술',
+    group: '기술 자동화',
   },
   {
     title: 'Applied Energistics 2',
     description: 'ME 네트워크, 채널, 자동 조합과 고급 운용.',
     to: '/docs/ae2/overview',
     tag: '저장',
+    group: '기술 자동화',
   },
   {
     title: 'RPG Skill Trees',
     description: '경험치, 포인트, 속성, 빌드 방향을 정리한 성장 가이드.',
     to: '/docs/skill-system/overview',
     tag: '성장',
+    group: '전투 성장',
   },
   {
     title: 'Spell Engine',
     description: '주문 획득, 시전, 주문력과 전투 운용법.',
     to: '/docs/spell-engine/overview',
     tag: '마법',
+    group: '마법 직업',
   },
   {
     title: 'RPG Classes',
     description: '클래스별 역할, 핵심 스킬, 추천 전투 운영.',
     to: '/docs/classes/class-overview',
     tag: '직업',
+    group: '마법 직업',
   },
   {
     title: 'Cataclysm',
     description: 'Cataclysm, 구조물, 던전 모드의 탐험 순서와 보상.',
     to: '/docs/cataclysm/overview',
     tag: '탐험',
+    group: '탐험 보스',
   },
 ];
 
@@ -70,35 +79,42 @@ const popularGuides = [
   {title: '첫 ME 네트워크', to: '/docs/ae2/first-network'},
 ];
 
+const routeSteps = [
+  {title: '초반 생존', to: '/docs/silent-gear/overview'},
+  {title: '자동화 입문', to: '/docs/create/overview'},
+  {title: '장비 강화', to: '/docs/apotheosis/overview'},
+  {title: '보스 공략', to: '/docs/cataclysm/overview'},
+];
+
 function HomepageHeader() {
   return (
     <header className={styles.heroBanner}>
       <div className="container">
         <div className={styles.heroLayout}>
           <div className={styles.heroCopy}>
-            <span className={styles.eyebrow}>LYGR Guide Hub</span>
+            <span className={styles.eyebrow}>LYGR Modpack Guide</span>
             <Heading as="h1" className={styles.heroTitle}>
-              Minecraft RPG 서버를 위한 실전 가이드
+              모드팩 진행을 한 번에 잡는 서버 가이드
             </Heading>
             <p className={styles.heroSubtitle}>
-              모드별 핵심 진행 루트, 장비 성장, 자동화, 전투 콘텐츠를 바로
-              찾아볼 수 있게 정리했습니다.
+              장비, 스킬, 자동화, 보스 콘텐츠를 진행 순서대로 찾을 수 있게
+              정리했습니다.
             </p>
             <div className={styles.buttons}>
               <Link className="button button--primary button--lg" to="/docs/silent-gear/overview">
-                가이드 시작하기
+                초반 가이드
               </Link>
-              <Link className="button button--secondary button--lg" to="/docs/apotheosis/overview">
-                강화 가이드
+              <Link className="button button--secondary button--lg" to="#guides">
+                모드 선택
               </Link>
             </div>
           </div>
           <div className={styles.heroPanel} aria-label="Popular guides">
-            <span className={styles.panelLabel}>Popular guides</span>
+            <span className={styles.panelLabel}>빠른 이동</span>
             {popularGuides.map((guide) => (
               <Link className={styles.popularGuide} to={guide.to} key={guide.to}>
                 <span>{guide.title}</span>
-                <span aria-hidden="true">→</span>
+                <span aria-hidden="true">&gt;</span>
               </Link>
             ))}
           </div>
@@ -119,17 +135,25 @@ export default function Home(): ReactNode {
         <section className={styles.docGrid} id="guides">
           <div className="container">
             <div className={styles.sectionHeader}>
-              <span className={styles.eyebrow}>Guide categories</span>
-              <Heading as="h2">필요한 가이드만 빠르게 찾기</Heading>
+              <span className={styles.eyebrow}>모드 선택</span>
+              <Heading as="h2">지금 필요한 모드부터 들어가기</Heading>
               <p>
-                Dyte 문서처럼 선택지는 단순하게 유지하고, 각 카테고리는 바로
-                본문으로 들어가도록 구성했습니다.
+                전체 모드를 한 목록에 몰아넣지 않고, 목적별로 구분해 바로
+                이동할 수 있게 정리했습니다.
               </p>
+            </div>
+            <div className={styles.routeStrip} aria-label="Recommended route">
+              {routeSteps.map((step, index) => (
+                <Link className={styles.routeStep} to={step.to} key={step.to}>
+                  <span>{String(index + 1).padStart(2, '0')}</span>
+                  <strong>{step.title}</strong>
+                </Link>
+              ))}
             </div>
             <div className={styles.cards}>
               {docSections.map((section) => (
                 <Link className={styles.card} to={section.to} key={section.to}>
-                  <span className={styles.cardTag}>{section.tag}</span>
+                  <span className={styles.cardTag}>{section.group} / {section.tag}</span>
                   <strong>{section.title}</strong>
                   <span>{section.description}</span>
                 </Link>
@@ -140,11 +164,11 @@ export default function Home(): ReactNode {
         <section className={styles.referenceBand}>
           <div className={clsx('container', styles.referenceLayout)}>
             <div>
-              <span className={styles.eyebrow}>Reference</span>
-              <Heading as="h2">전체 문서는 좌측 사이드바에서 이어집니다</Heading>
+              <span className={styles.eyebrow}>읽는 방식</span>
+              <Heading as="h2">문서 안에서는 현재 모드 목차만 보여줍니다</Heading>
             </div>
             <Link className="button button--outline button--lg" to="/docs/apotheosis/overview">
-              전체 가이드 보기
+              강화 루트 보기
             </Link>
           </div>
         </section>

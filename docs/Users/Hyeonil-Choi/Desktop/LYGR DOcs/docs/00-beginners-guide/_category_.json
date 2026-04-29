@@ -1,0 +1,10 @@
+{
+  "label": "🌟 초보자 가이드",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "00-beginners-guide/index"
+  }
+}

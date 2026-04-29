@@ -1,19 +1,36 @@
 .heroBanner {
-  min-height: 580px;
-  padding: 8rem 0 4rem;
+  min-height: 600px;
+  padding: 8rem 0 3.5rem;
   position: relative;
   overflow: hidden;
   background:
     linear-gradient(
+      180deg,
+      rgba(80, 143, 68, 0.3) 0%,
+      rgba(50, 88, 54, 0.35) 42%,
+      rgba(35, 24, 18, 0.92) 100%
+    ),
+    linear-gradient(
       90deg,
-      rgba(15, 18, 28, 0.94) 0%,
-      rgba(30, 25, 48, 0.84) 48%,
-      rgba(25, 28, 40, 0.62) 100%
+      rgba(28, 38, 28, 0.94) 0%,
+      rgba(45, 53, 38, 0.78) 52%,
+      rgba(24, 20, 16, 0.7) 100%
     ),
     url('/img/loyalty-guys-banner.png') center top / cover no-repeat;
   color: #fff;
   display: flex;
   align-items: center;
+}
+
+.heroBanner::after {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+  content: '';
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
 }
 
 .heroBanner :global(.container) {
@@ -33,24 +50,25 @@
 }
 
 .eyebrow {
-  color: var(--ifm-color-primary);
+  color: #9be36f;
   display: inline-flex;
   font-size: 0.82rem;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 0;
   margin-bottom: 0.8rem;
   text-transform: uppercase;
 }
 
 .heroTitle {
-  font-size: 3.9rem;
-  line-height: 1.08;
+  font-size: 3.7rem;
+  line-height: 1.1;
   margin: 0;
   max-width: 720px;
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.42);
 }
 
 .heroSubtitle {
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.84);
   font-size: 1.18rem;
   line-height: 1.72;
   margin: 1.35rem 0 0;
@@ -66,40 +84,48 @@
 }
 
 .heroPanel {
-  backdrop-filter: blur(18px);
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.72);
-  border-radius: 8px;
-  box-shadow: 0 24px 70px rgba(2, 8, 23, 0.28);
-  color: #111827;
+  background:
+    linear-gradient(180deg, rgba(111, 75, 45, 0.95), rgba(79, 52, 35, 0.98));
+  border: 3px solid #2a1a12;
+  border-radius: 4px;
+  box-shadow:
+    inset 0 3px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -4px 0 rgba(0, 0, 0, 0.28),
+    0 22px 46px rgba(0, 0, 0, 0.32);
+  color: #fff8dc;
   padding: 1rem;
 }
 
 .panelLabel {
-  color: #6b7280;
+  color: #c9f28d;
   display: block;
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 900;
   margin: 0.25rem 0 0.75rem;
   text-transform: uppercase;
 }
 
 .popularGuide {
   align-items: center;
-  border-top: 1px solid #e5e7eb;
-  color: #111827;
+  background: rgba(42, 26, 18, 0.28);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  color: #fff8dc;
   display: flex;
-  font-weight: 800;
+  font-weight: 900;
   justify-content: space-between;
-  padding: 1rem 0.25rem;
+  padding: 1rem 0.65rem;
 }
 
 .popularGuide:hover {
-  color: var(--ifm-color-primary);
+  background: rgba(155, 227, 111, 0.14);
+  color: #c9f28d;
   text-decoration: none;
 }
 
 .docGrid {
+  background:
+    linear-gradient(180deg, rgba(150, 117, 79, 0.1), transparent 38%),
+    var(--ifm-background-color);
   padding: 4.5rem 0;
 }
 
@@ -117,6 +143,49 @@
   line-height: 1.7;
 }
 
+.routeStrip {
+  background: var(--lygr-stone);
+  border: 2px solid var(--lygr-border);
+  border-radius: 4px;
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.7),
+    inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.routeStep {
+  align-items: center;
+  border-right: 1px solid rgba(69, 52, 35, 0.18);
+  color: var(--ifm-font-color-base);
+  display: flex;
+  gap: 0.75rem;
+  min-height: 70px;
+  padding: 1rem;
+}
+
+.routeStep:last-child {
+  border-right: 0;
+}
+
+.routeStep span {
+  color: var(--lygr-grass-dark);
+  font-weight: 950;
+}
+
+.routeStep strong {
+  font-size: 0.98rem;
+}
+
+.routeStep:hover {
+  background: rgba(117, 167, 67, 0.14);
+  color: var(--lygr-grass-dark);
+  text-decoration: none;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -125,15 +194,18 @@
 }
 
 .card {
-  background: var(--ifm-background-surface-color);
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0)),
+    var(--ifm-background-surface-color);
+  border: 2px solid var(--lygr-border);
+  border-radius: 4px;
   color: var(--ifm-font-color-base);
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
   min-height: 178px;
   padding: 1.35rem;
+  position: relative;
   transition:
     border-color 160ms ease,
     box-shadow 160ms ease,
@@ -144,28 +216,41 @@
   font-size: 1.12rem;
 }
 
+.card::before {
+  background: linear-gradient(90deg, var(--lygr-grass), var(--lygr-gold));
+  content: '';
+  height: 5px;
+  left: -2px;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+}
+
 .card span:last-child {
   color: var(--ifm-color-emphasis-700);
   line-height: 1.58;
 }
 
 .cardTag {
-  color: var(--ifm-color-primary);
+  color: var(--lygr-grass-dark);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .card:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 14px 36px rgba(17, 24, 39, 0.08);
-  color: var(--ifm-color-primary);
+  border-color: var(--lygr-grass-dark);
+  box-shadow: 0 10px 0 rgba(69, 52, 35, 0.12);
+  color: var(--lygr-grass-dark);
   text-decoration: none;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 .referenceBand {
-  background: var(--ifm-color-emphasis-100);
-  border-top: 1px solid var(--ifm-color-emphasis-200);
+  background:
+    linear-gradient(135deg, rgba(46, 74, 45, 0.9), rgba(72, 54, 38, 0.94)),
+    var(--lygr-dirt);
+  border-top: 4px solid var(--lygr-grass);
+  color: #fff8dc;
   padding: 3.2rem 0;
 }
 
@@ -177,6 +262,7 @@
 }
 
 .referenceLayout h2 {
+  color: #fff8dc;
   margin: 0;
 }
 
@@ -194,6 +280,14 @@
   .heroTitle {
     font-size: 2.7rem;
   }
+
+  .routeStrip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .routeStep:nth-child(2) {
+    border-right: 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -204,5 +298,18 @@
   .referenceLayout {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .routeStrip {
+    grid-template-columns: 1fr;
+  }
+
+  .routeStep {
+    border-right: 0;
+    border-bottom: 1px solid rgba(69, 52, 35, 0.18);
+  }
+
+  .routeStep:last-child {
+    border-bottom: 0;
   }
 }
