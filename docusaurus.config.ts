@@ -104,7 +104,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Guides',
+          title: '모드팩 가이드',
           items: [
             {
               label: 'Apotheosis',
@@ -118,13 +118,34 @@ const config: Config = {
               label: 'Create',
               to: '/docs/create/overview',
             },
+            {
+              label: 'Cataclysm',
+              to: '/docs/cataclysm/overview',
+            },
           ],
         },
         {
-          title: 'Reference',
+          title: '유저 가이드',
           items: [
             {
-              label: 'All Guides',
+              label: '초보자 완전 가이드',
+              to: '/docs/user-guide/beginners-guide',
+            },
+            {
+              label: '설치 & 첫 실행',
+              to: '/docs/user-guide/beginners-guide/first-launch',
+            },
+            {
+              label: '엔드게임 로드맵',
+              to: '/docs/user-guide/beginners-guide/endgame-roadmap',
+            },
+          ],
+        },
+        {
+          title: '저장소',
+          items: [
+            {
+              label: '가이드 홈',
               to: '/docs/apotheosis/overview',
             },
             {

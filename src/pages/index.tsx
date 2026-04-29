@@ -1,5 +1,4 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -73,10 +72,11 @@ const docSections = [
   },
 ];
 
-const popularGuides = [
-  {title: '첫 장비 만들기', to: '/docs/silent-gear/first-gear'},
-  {title: '초반 자동화 시작', to: '/docs/create/early-game'},
-  {title: '첫 ME 네트워크', to: '/docs/ae2/first-network'},
+const quickLinks = [
+  {title: '초보자 완전 가이드', meta: '처음 시작', to: '/docs/user-guide/beginners-guide'},
+  {title: '장비 제작 루트', meta: 'Silent Gear', to: '/docs/silent-gear/first-gear'},
+  {title: '자동화 입문', meta: 'Create', to: '/docs/create/early-game'},
+  {title: '보스 진행', meta: 'Cataclysm', to: '/docs/cataclysm/overview'},
 ];
 
 const routeSteps = [
@@ -109,11 +109,14 @@ function HomepageHeader() {
               </Link>
             </div>
           </div>
-          <div className={styles.heroPanel} aria-label="Popular guides">
-            <span className={styles.panelLabel}>빠른 이동</span>
-            {popularGuides.map((guide) => (
+          <div className={styles.heroPanel} aria-label="Quick links">
+            <span className={styles.panelLabel}>추천 루트</span>
+            {quickLinks.map((guide) => (
               <Link className={styles.popularGuide} to={guide.to} key={guide.to}>
-                <span>{guide.title}</span>
+                <span>
+                  <small>{guide.meta}</small>
+                  {guide.title}
+                </span>
                 <span aria-hidden="true">&gt;</span>
               </Link>
             ))}
@@ -159,17 +162,6 @@ export default function Home(): ReactNode {
                 </Link>
               ))}
             </div>
-          </div>
-        </section>
-        <section className={styles.referenceBand}>
-          <div className={clsx('container', styles.referenceLayout)}>
-            <div>
-              <span className={styles.eyebrow}>읽는 방식</span>
-              <Heading as="h2">문서 안에서는 현재 모드 목차만 보여줍니다</Heading>
-            </div>
-            <Link className="button button--outline button--lg" to="/docs/apotheosis/overview">
-              강화 루트 보기
-            </Link>
           </div>
         </section>
       </main>

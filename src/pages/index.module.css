@@ -116,6 +116,14 @@
   padding: 1rem 0.65rem;
 }
 
+.popularGuide small {
+  color: #c9f28d;
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 900;
+  margin-bottom: 0.18rem;
+}
+
 .popularGuide:hover {
   background: rgba(155, 227, 111, 0.14);
   color: #c9f28d;
@@ -245,27 +253,6 @@
   transform: translateY(-3px);
 }
 
-.referenceBand {
-  background:
-    linear-gradient(135deg, rgba(46, 74, 45, 0.9), rgba(72, 54, 38, 0.94)),
-    var(--lygr-dirt);
-  border-top: 4px solid var(--lygr-grass);
-  color: #fff8dc;
-  padding: 3.2rem 0;
-}
-
-.referenceLayout {
-  align-items: center;
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
-}
-
-.referenceLayout h2 {
-  color: #fff8dc;
-  margin: 0;
-}
-
 @media screen and (max-width: 996px) {
   .heroBanner {
     min-height: auto;
@@ -293,11 +280,6 @@
 @media screen and (max-width: 640px) {
   .heroTitle {
     font-size: 2.2rem;
-  }
-
-  .referenceLayout {
-    align-items: flex-start;
-    flex-direction: column;
   }
 
   .routeStrip {
