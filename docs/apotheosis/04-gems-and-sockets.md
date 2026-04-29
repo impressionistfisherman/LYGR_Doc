@@ -54,9 +54,9 @@ tags: [apotheosis, 젬, 소켓, 강화]
 
 :::info 소켓 개수와 등급의 관계
 - Common 아이템: 소켓 없음
-- Uncommon: 소켓 0~1개
-- Rare: 소켓 1~2개
-- Epic: 소켓 2~4개
+- Uncommon: 소켓 0\~1개
+- Rare: 소켓 1\~2개
+- Epic: 소켓 2\~4개
 - Mythic: 소켓 최대
 
 소켓 수가 많은 Epic 이상 아이템을 획득하면 젬 강화 효과를 극대화할 수 있습니다.

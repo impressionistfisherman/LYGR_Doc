@@ -67,7 +67,7 @@ Spell Engine은 마법을 어떻게 사용하는지 담당하고, Spell Power는
 
 - [ ] 직업 선택 완료
 - [ ] 직업 전용 스펠북 획득
-- [ ] 스펠 스크롤 최소 2~3개 확보
+- [ ] 스펠 스크롤 최소 2\~3개 확보
 - [ ] Spell Binding Table 제작
 - [ ] 장비에 주력 계열 Spell Power 스탯 확인
 - [ ] 스킬 창(K)에서 Spell 관련 노드 확인

@@ -27,7 +27,7 @@ tags: [apotheosis, 월드티어, 난이도, 진행]
 |------|------|
 | **해금 조건** | 첫 Affix 아이템 획득 후 Ctrl+T로 수동 활성화 |
 | **주요 변화** | Affix 아이템 능력치 잠금 해제 |
-| **드롭 특징** | Common ~ Uncommon 등급 위주 |
+| **드롭 특징** | Common \~ Uncommon 등급 위주 |
 
 Haven은 Apotheosis 시스템이 **실제로 켜지는** 단계입니다.  
 이 단계 전까지는 Affix 아이템을 들고 있어도 효과가 발동하지 않습니다.

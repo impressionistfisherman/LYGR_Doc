@@ -18,10 +18,10 @@ Mekanism의 모든 기계는 **FE(Forge Energy)** 로 작동합니다.
 | 발전기 | 발전량 | 연료 | 권장 단계 |
 |--------|--------|------|-----------|
 | **Heat Generator** | 최대 800 FE/t | 용암 (무한) | 초반 |
-| **Wind Generator** | 최대 480 FE/t | 없음 | 초반~중반 |
+| **Wind Generator** | 최대 480 FE/t | 없음 | 초반\~중반 |
 | **Solar Generator** | 최대 120 FE/t | 없음 | 초반 보조 |
 | **Advanced Solar Generator** | 최대 1,200 FE/t | 없음 | 중반 |
-| **Gas-Burning Generator** | 최대 20,000 FE/t | 수소/에탄 등 | 중반~후반 |
+| **Gas-Burning Generator** | 최대 20,000 FE/t | 수소/에탄 등 | 중반\~후반 |
 | **Bio-Generator** | 최대 4,800 FE/t | 바이오 연료 | 중반 보조 |
 | **Fission Reactor** | 수십만 FE/t | 우라늄 | 후반 (위험) |
 | **Fusion Reactor** | 수백만 FE/t | 중수소 | 최종 |
@@ -58,7 +58,7 @@ Y=192 이상 = 최대 480 FE/t
 설치 팁:
   - 가능한 높은 곳에 설치
   - 여러 개 설치해 합산 (스택 가능)
-  - 3~4개면 초반 기계 여러 대를 돌리기 충분
+  - 3\~4개면 초반 기계 여러 대를 돌리기 충분
 ```
 
 ---
@@ -74,7 +74,7 @@ Y=192 이상 = 최대 480 FE/t
   1. Electric Pump + Electrolytic Separator로 물 → 수소 생산
   2. 수소를 Gas Tank에 저장
   3. Gas-Burning Generator에 수소 파이프 연결
-  4. 최대 10,000~20,000 FE/t 발전
+  4. 최대 10,000\~20,000 FE/t 발전
 ```
 
 Tier 2 광석 처리 시스템의 수소 부산물을 여기에 연결하면  
@@ -89,7 +89,7 @@ Tier 2 광석 처리 시스템의 수소 부산물을 여기에 연결하면
 장점: 연료 없음, 관리 불필요
 단점: 날씨/시간 영향 (비/밤에는 발전 안 됨)
 
-권장: 8~10개 설치하면 낮 시간 기본 에너지 자급 가능
+권장: 8\~10개 설치하면 낮 시간 기본 에너지 자급 가능
      Energy Cube에 낮에 충전 → 밤에 사용
 ```
 
@@ -149,12 +149,12 @@ Energy Cube를 버퍼로 배치해 에너지를 안정적으로 공급하세요.
 ## 단계별 에너지 목표
 
 ```
-초반 (Tier 1~2 광석 처리):
-  목표: 5,000~10,000 FE/t
-  방법: Wind Generator 3~5개 + Heat Generator 1개
+초반 (Tier 1\~2 광석 처리):
+  목표: 5,000\~10,000 FE/t
+  방법: Wind Generator 3\~5개 + Heat Generator 1개
 
-중반 (Tier 2~3 광석 처리):
-  목표: 20,000~50,000 FE/t
+중반 (Tier 2\~3 광석 처리):
+  목표: 20,000\~50,000 FE/t
   방법: Gas-Burning Generator (수소) + Advanced Solar
 
 후반 (Tier 4 광석 처리 + Digital Miner):

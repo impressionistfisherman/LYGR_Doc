@@ -26,8 +26,8 @@ CurseForge 앱 → 모드팩 우클릭 → Profile Options
 
 | 내 PC RAM | 권장 할당량 |
 |-----------|------------|
-| 12GB | 6~7GB (6144~7168MB) |
-| 16GB | 8~10GB (8192~10240MB) |
+| 12GB | 6GB - 7GB (6144MB - 7168MB) |
+| 16GB | 8GB - 10GB (8192MB - 10240MB) |
 | 32GB | 12GB (12288MB) |
 
 > ⚠️ PC 전체 RAM의 절반 이상은 할당하지 마세요. 운영체제도 RAM이 필요합니다.
@@ -42,8 +42,8 @@ CurseForge 앱 → 모드팩 우클릭 → Profile Options
 
 | 설정 항목 | 렉 심할 때 | 어느 정도 돌아갈 때 |
 |-----------|-----------|-------------------|
-| **Render Distance** | 6~8 청크 | 10~12 청크 |
-| **Simulation Distance** | 5~6 청크 | 8~10 청크 |
+| **Render Distance** | 6\~8 청크 | 10\~12 청크 |
+| **Simulation Distance** | 5\~6 청크 | 8\~10 청크 |
 | **Graphics** | Fast | Fancy |
 | **Smooth Lighting** | Off | On |
 | **Clouds** | Off | Fast |
@@ -120,7 +120,7 @@ Video Settings → Shader Packs
 
 ## 렉의 종류별 해결책
 
-### 🔴 FPS가 계속 낮아 (15~30 FPS)
+### 🔴 FPS가 계속 낮아 (15\~30 FPS)
 → Render Distance 낮추기, RAM 늘리기, 셰이더 끄기
 
 ### 🟡 갑자기 멈췄다가 돌아옵니다 (프리징)
@@ -167,7 +167,7 @@ Particles: Minimal
 셰이더: 끄기
 ```
 
-### 🟡 중간 사양 (RAM 16GB, GTX 1660 ~ RTX 2060)
+### 🟡 중간 사양 (RAM 16GB, GTX 1660 \~ RTX 2060)
 ```
 Render Distance: 10
 Simulation Distance: 8

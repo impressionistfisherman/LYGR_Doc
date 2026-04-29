@@ -167,7 +167,7 @@ Configurator 손에 들고 기계 면에 우클릭
 ## 초반 체크리스트
 
 ```
-[ ] 오스뮴 2~3스택 확보
+[ ] 오스뮴 2\~3스택 확보
 [ ] Metallurgic Infuser 제작
 [ ] 강철 주괴 1스택 이상 생산
 [ ] Machine Casing 다량 제작

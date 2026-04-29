@@ -47,8 +47,8 @@ tags: [idas, 구조물, locate, 레퍼런스]
 | Fisherman's Lodge | `idas:fishermans_lodge` | 초반 |
 | Beekeeper's House | `idas:beekeepers_house` | 초반 |
 | Hermit's Hollow | `idas:hermits_hollow` | 초반 |
-| Abandoned House | `idas:abandoned_house` | 초반~중반 |
-| Abandoned Farmhouse | `idas:abandoned_farmhouse` | 초반~중반 |
+| Abandoned House | `idas:abandoned_house` | 초반\~중반 |
+| Abandoned Farmhouse | `idas:abandoned_farmhouse` | 초반\~중반 |
 
 ### 오버월드 — 중반 구조물
 
@@ -63,7 +63,7 @@ tags: [idas, 구조물, locate, 레퍼런스]
 | Witch's Treestump | `idas:witchs_treestump` | 중반 |
 | Redhorn Guild | `idas:redhorn_guild` | 중반 |
 | Necromancer's Spire | `idas:necromancers_spire` | 중반 |
-| Dread Citadel | `idas:dread_citadel` | 중반~후반 |
+| Dread Citadel | `idas:dread_citadel` | 중반\~후반 |
 
 ### 오버월드 — 엔드게임 구조물
 

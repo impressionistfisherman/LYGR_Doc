@@ -1,12 +1,12 @@
 ---
-title: 광석 처리 시스템 (2x ~ 5x)
+title: 광석 처리 시스템 (2x \~ 5x)
 sidebar_label: 광석 처리
 sidebar_position: 3
-description: Mekanism의 핵심인 광석 처리 1~5배 증산 시스템을 단계별로 완전히 이해합니다.
+description: Mekanism의 핵심인 광석 처리 1\~5배 증산 시스템을 단계별로 완전히 이해합니다.
 tags: [mekanism, 광석처리, 증산, 자동화]
 ---
 
-# 광석 처리 시스템 (2x ~ 5x)
+# 광석 처리 시스템 (2x \~ 5x)
 
 Mekanism의 핵심은 **광석 하나에서 최대 5개의 주괴**를 얻는 것입니다.  
 각 티어는 이전 티어의 기계를 모두 포함하며 새 기계가 추가됩니다.

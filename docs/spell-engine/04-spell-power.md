@@ -143,8 +143,8 @@ Apotheosis/puffish_attributes의 일반 크리티컬 스탯은
 
 | 단계 | 목표 Spell Power |
 |------|-----------------|
-| 초반 (Haven 티어) | +20~40% |
-| 중반 (Frontier~Ascent) | +60~100% |
-| 후반 (Summit~Pinnacle) | +150% 이상 |
+| 초반 (Haven 티어) | +20\~40% |
+| 중반 (Frontier\~Ascent) | +60\~100% |
+| 후반 (Summit\~Pinnacle) | +150% 이상 |
 
 이 수치보다 낮으면 주문 데미지가 너무 낮아 마법 전투가 비효율적이 될 수 있습니다.

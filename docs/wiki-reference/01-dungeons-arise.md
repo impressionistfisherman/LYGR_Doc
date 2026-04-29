@@ -182,7 +182,7 @@ Foundry, Infested Temple 등 지하 구조물:
   → 다이아몬드 + Apotheosis Uncommon 이상
 
 대형 (Keep Kayra, Heavenly Keep):
-  → Apotheosis Rare~Epic 이상
+  → Apotheosis Rare\~Epic 이상
 
 공중/지하 (Airship, Foundry):
   → Apotheosis Epic + 이동 수단 확보 후 도전

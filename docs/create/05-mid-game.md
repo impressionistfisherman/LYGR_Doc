@@ -70,7 +70,7 @@ JEI에서 Crushing Wheels 검색 → Mechanical Crafter 레시피 확인
 | 방법 | 철 광석 1개 → |
 |------|-------------|
 | 용광로 직접 제련 | 철 주괴 1개 |
-| Millstone 분쇄 → 제련 | 철 주괴 1~2개 |
+| Millstone 분쇄 → 제련 | 철 주괴 1\~2개 |
 | **Crushing Wheels** → 제련 | **철 주괴 2개 보장** |
 
 ---
