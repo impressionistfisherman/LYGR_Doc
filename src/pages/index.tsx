@@ -94,7 +94,7 @@ function HomepageHeader() {
           <div className={styles.heroCopy}>
             <span className={styles.eyebrow}>LYGR Modpack Guide</span>
             <Heading as="h1" className={styles.heroTitle}>
-              모팩 한판정리
+              모드팩 한판정리
             </Heading>
             <p className={styles.heroSubtitle}>
               처음 시작할 때 볼 것부터 엔드게임 준비까지.
