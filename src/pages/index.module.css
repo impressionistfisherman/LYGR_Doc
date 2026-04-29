@@ -1,20 +1,20 @@
 .heroBanner {
-  min-height: 600px;
-  padding: 8rem 0 3.5rem;
+  min-height: 560px;
+  padding: 7.5rem 0 3.5rem;
   position: relative;
   overflow: hidden;
   background:
     linear-gradient(
       180deg,
-      rgba(80, 143, 68, 0.3) 0%,
-      rgba(50, 88, 54, 0.35) 42%,
-      rgba(35, 24, 18, 0.92) 100%
+      rgba(66, 116, 58, 0.34) 0%,
+      rgba(45, 67, 49, 0.42) 46%,
+      rgba(24, 20, 16, 0.9) 100%
     ),
     linear-gradient(
       90deg,
-      rgba(28, 38, 28, 0.94) 0%,
-      rgba(45, 53, 38, 0.78) 52%,
-      rgba(24, 20, 16, 0.7) 100%
+      rgba(24, 32, 26, 0.94) 0%,
+      rgba(45, 53, 38, 0.74) 52%,
+      rgba(24, 20, 16, 0.66) 100%
     ),
     url('/img/loyalty-guys-banner.png') center top / cover no-repeat;
   color: #fff;
@@ -24,9 +24,9 @@
 
 .heroBanner::after {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-  background-size: 24px 24px;
+    linear-gradient(rgba(255, 255, 255, 0.026) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.026) 1px, transparent 1px);
+  background-size: 32px 32px;
   content: '';
   inset: 0;
   pointer-events: none;
@@ -40,8 +40,8 @@
 
 .heroLayout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px;
-  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+  gap: 3.25rem;
   align-items: center;
 }
 
@@ -50,29 +50,30 @@
 }
 
 .eyebrow {
-  color: #9be36f;
+  color: #b8f094;
   display: inline-flex;
   font-size: 0.82rem;
-  font-weight: 900;
+  font-weight: 850;
   letter-spacing: 0;
   margin-bottom: 0.8rem;
   text-transform: uppercase;
 }
 
 .heroTitle {
-  font-size: 4rem;
-  line-height: 1.1;
+  font-size: 4.35rem;
+  line-height: 1.05;
   margin: 0;
   max-width: 720px;
-  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.42);
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.46);
 }
 
 .heroSubtitle {
-  color: rgba(255, 255, 255, 0.84);
-  font-size: 1.18rem;
-  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.13rem;
+  line-height: 1.78;
   margin: 1.35rem 0 0;
-  max-width: 640px;
+  max-width: 600px;
+  word-break: keep-all;
 }
 
 .buttons {
@@ -84,65 +85,70 @@
 }
 
 .heroPanel {
-  background:
-    linear-gradient(180deg, rgba(111, 75, 45, 0.95), rgba(79, 52, 35, 0.98));
-  border: 3px solid #2a1a12;
-  border-radius: 4px;
-  box-shadow:
-    inset 0 3px 0 rgba(255, 255, 255, 0.18),
-    inset 0 -4px 0 rgba(0, 0, 0, 0.28),
-    0 22px 46px rgba(0, 0, 0, 0.32);
-  color: #fff8dc;
-  padding: 1rem;
+  background: rgba(255, 253, 247, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  border-radius: 8px;
+  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.26);
+  color: #221d17;
+  padding: 1.05rem;
+  backdrop-filter: blur(10px);
 }
 
 .panelLabel {
-  color: #c9f28d;
+  color: #347436;
   display: block;
   font-size: 0.8rem;
-  font-weight: 900;
-  margin: 0.25rem 0 0.75rem;
+  font-weight: 850;
+  margin: 0.2rem 0 0.75rem;
   text-transform: uppercase;
 }
 
 .popularGuide {
   align-items: center;
-  background: rgba(42, 26, 18, 0.28);
-  border-top: 1px solid rgba(255, 255, 255, 0.16);
-  color: #fff8dc;
+  background: rgba(245, 240, 230, 0.72);
+  border: 1px solid rgba(64, 52, 39, 0.1);
+  border-radius: 6px;
+  color: #221d17;
   display: flex;
-  font-weight: 900;
+  font-weight: 830;
   justify-content: space-between;
-  padding: 1rem 0.65rem;
+  margin-top: 0.55rem;
+  padding: 0.9rem 0.78rem;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
 }
 
 .popularGuide small {
-  color: #c9f28d;
+  color: #5f665e;
   display: block;
   font-size: 0.74rem;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 0.18rem;
 }
 
 .popularGuide:hover {
-  background: rgba(155, 227, 111, 0.14);
-  color: #c9f28d;
+  background: rgba(94, 159, 69, 0.12);
+  border-color: rgba(52, 116, 54, 0.28);
+  color: #347436;
   text-decoration: none;
+  transform: translateX(2px);
 }
 
 .docGrid {
-  background:
-    linear-gradient(180deg, rgba(150, 117, 79, 0.1), transparent 38%),
-    var(--ifm-background-color);
-  padding: 4.5rem 0;
+  background: var(--ifm-background-color);
+  padding: 4.25rem 0 5rem;
 }
 
 .sectionHeader {
-  max-width: 720px;
+  max-width: 760px;
 }
 
 .sectionHeader h2 {
-  font-size: 2.2rem;
+  font-size: 2.35rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
 }
 
 .sectionHeader p {
@@ -152,16 +158,14 @@
 }
 
 .routeStrip {
-  background: var(--lygr-stone);
-  border: 2px solid var(--lygr-border);
-  border-radius: 4px;
-  box-shadow:
-    inset 0 2px 0 rgba(255, 255, 255, 0.7),
-    inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--lygr-line-strong);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(48, 38, 28, 0.06);
   display: grid;
   gap: 0;
   grid-template-columns: repeat(4, 1fr);
-  margin-top: 2rem;
+  margin-top: 2.1rem;
   overflow: hidden;
 }
 
@@ -171,8 +175,11 @@
   color: var(--ifm-font-color-base);
   display: flex;
   gap: 0.75rem;
-  min-height: 70px;
+  min-height: 76px;
   padding: 1rem;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
 }
 
 .routeStep:last-child {
@@ -181,11 +188,12 @@
 
 .routeStep span {
   color: var(--lygr-grass-dark);
-  font-weight: 950;
+  font-weight: 850;
 }
 
 .routeStep strong {
   font-size: 0.98rem;
+  line-height: 1.35;
 }
 
 .routeStep:hover {
@@ -196,22 +204,21 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.1rem;
 }
 
 .card {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0)),
-    var(--ifm-background-surface-color);
-  border: 2px solid var(--lygr-border);
-  border-radius: 4px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--lygr-line);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(48, 38, 28, 0.045);
   color: var(--ifm-font-color-base);
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
-  min-height: 178px;
+  gap: 0.7rem;
+  min-height: 168px;
   padding: 1.35rem;
   position: relative;
   transition:
@@ -222,41 +229,44 @@
 
 .card strong {
   font-size: 1.12rem;
+  line-height: 1.35;
 }
 
 .card::before {
   background: linear-gradient(90deg, var(--lygr-grass), var(--lygr-gold));
+  border-radius: 8px 8px 0 0;
   content: '';
-  height: 5px;
-  left: -2px;
+  height: 4px;
+  left: 0;
   position: absolute;
-  right: -2px;
-  top: -2px;
+  right: 0;
+  top: 0;
 }
 
 .card span:last-child {
   color: var(--ifm-color-emphasis-700);
-  line-height: 1.58;
+  line-height: 1.62;
+  word-break: keep-all;
 }
 
 .cardTag {
   color: var(--lygr-grass-dark);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 850;
 }
 
 .card:hover {
   border-color: var(--lygr-grass-dark);
-  box-shadow: 0 10px 0 rgba(69, 52, 35, 0.12);
+  box-shadow: 0 18px 36px rgba(48, 38, 28, 0.1);
   color: var(--lygr-grass-dark);
   text-decoration: none;
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     min-height: auto;
-    padding: 7rem 0 3rem;
+    padding: 6rem 0 2.75rem;
   }
 
   .heroLayout {
@@ -265,7 +275,8 @@
   }
 
   .heroTitle {
-    font-size: 2.7rem;
+    font-size: 3rem;
+    max-width: 620px;
   }
 
   .routeStrip {
@@ -279,7 +290,11 @@
 
 @media screen and (max-width: 640px) {
   .heroTitle {
-    font-size: 2.2rem;
+    font-size: 2.35rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
   }
 
   .routeStrip {
