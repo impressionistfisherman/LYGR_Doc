@@ -190,20 +190,16 @@ ESC → Options → Controls → Key Binds
 
 ## 자주 쓰는 키 한눈에 보기
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  LYGR 모드팩 핵심 키
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  E          인벤토리
-  F          양손 아이템 교체
-  F3         좌표 확인
-  R          JEI 레시피
-  U          JEI 사용처
-  W 길게     Create Ponder
-  Ctrl+T     Apotheosis World Tier
-  B          Traveler's Backpack
-  Ctrl       Silent Gear 재료 정보
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  나머지 모드 키는 Controls에서 모드명으로 검색
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+| 키 | 기능 |
+|----|------|
+| `E` | 인벤토리 |
+| `F` | 양손 아이템 교체 |
+| `F3` | 좌표 확인 |
+| `R` | JEI 레시피 |
+| `U` | JEI 사용처 |
+| `W` 길게 | Create Ponder |
+| `Ctrl + T` | Apotheosis World Tier |
+| `B` | Traveler's Backpack |
+| `Ctrl` | Silent Gear 재료 정보 |
+
+나머지 모드 키는 `Controls`에서 모드명이나 기능명으로 검색해 확인하세요.

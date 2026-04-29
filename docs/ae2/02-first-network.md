@@ -80,9 +80,7 @@ Energy Acceptor 설치
 
 Energy Acceptor와 ME Drive를 케이블로 연결합니다.
 
-```
-Energy Acceptor ── [ME Cable] ── ME Drive
-```
+연결 순서: `Energy Acceptor` → `ME Cable` → `ME Drive`
 
 케이블 종류:
 - **Glass Cable (유리 케이블):** 가장 기본, 초반에 충분
@@ -96,13 +94,9 @@ Energy Acceptor ── [ME Cable] ── ME Drive
 
 네트워크에 저장된 아이템을 검색하고 꺼내는 인터페이스입니다.
 
-```
-ME Drive ── [Cable] ── ME Terminal
+연결 순서: `ME Drive` → `Cable` → `ME Terminal`
 
-또는
-
-ME Crafting Terminal: 터미널 + 제작대 통합 버전 (추천)
-```
+제작 기능까지 같이 쓰고 싶다면 `ME Crafting Terminal`을 사용하세요. 터미널과 제작대를 합친 버전이라 초반부터 추천합니다.
 
 ### Terminal 사용법
 

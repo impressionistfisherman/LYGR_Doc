@@ -69,11 +69,11 @@ JEI에서 원하는 레시피 클릭 → "Transfer to Pattern" 버튼 → 자동
 ```
 
 **설치:**
-```
-Pattern Provider ── Molecular Assembler (제작대 자동화)
-또는
-Pattern Provider ── 외부 기계 (Processing Pattern 사용 시)
-```
+
+| 연결 대상 | 용도 |
+|-----------|------|
+| Molecular Assembler | 제작대 레시피 자동화 |
+| 외부 기계 | Processing Pattern으로 용광로, Mekanism 기계 등 자동화 |
 
 ---
 
