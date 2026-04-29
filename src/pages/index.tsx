@@ -80,7 +80,7 @@ const quickLinks = [
 ];
 
 const routeSteps = [
-  {title: '초반 생존', to: '/docs/silent-gear/overview'},
+  {title: '초반 생존', to: '/docs/user-guide/beginners-guide/first-night'},
   {title: '자동화 입문', to: '/docs/create/overview'},
   {title: '장비 강화', to: '/docs/apotheosis/overview'},
   {title: '보스 공략', to: '/docs/cataclysm/overview'},
