@@ -94,14 +94,14 @@ function HomepageHeader() {
           <div className={styles.heroCopy}>
             <span className={styles.eyebrow}>LYGR Modpack Guide</span>
             <Heading as="h1" className={styles.heroTitle}>
-              모드팩 진행을 한 번에 잡는 서버 가이드
+              ModPack 총정리
             </Heading>
             <p className={styles.heroSubtitle}>
-              장비, 스킬, 자동화, 보스 콘텐츠를 진행 순서대로 찾을 수 있게
-              정리했습니다.
+              처음 시작하는 유저부터 엔드게임을 준비하는 유저까지, 진행 루트와
+              모드별 핵심 가이드를 한 곳에서 확인하세요.
             </p>
             <div className={styles.buttons}>
-              <Link className="button button--primary button--lg" to="/docs/silent-gear/overview">
+              <Link className="button button--primary button--lg" to="/docs/user-guide/beginners-guide">
                 초반 가이드
               </Link>
               <Link className="button button--secondary button--lg" to="#guides">
