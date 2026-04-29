@@ -5,16 +5,16 @@ title: 성능 최적화 — 렉 줄이기
 
 # 성능 최적화 — 렉 줄이기
 
-> 모드가 178개라 기본 설정으로는 렉이 걸릴 수 있어.  
-> 이 설정들만 해줘도 체감이 확 달라져!
+> 모드가 178개라 기본 설정으로는 렉이 걸릴 수 있습니다.  
+> 이 설정들만 해주어도 체감이 확 달라집니다!
 
 ---
 
 ## 먼저 확인할 것 — RAM 할당량
 
-**가장 중요한 설정이야. 이것부터 해!**
+**가장 중요한 설정입니다. 이것부터 설정하세요!**
 
-모드팩은 RAM을 많이 먹어. 기본값으론 턱없이 부족해.
+모드팩은 RAM 사용량이 많습니다. 기본값으론 턱없이 부족합니다.
 
 ### CurseForge에서 RAM 늘리는 법
 
@@ -30,13 +30,13 @@ CurseForge 앱 → 모드팩 우클릭 → Profile Options
 | 16GB | 8~10GB (8192~10240MB) |
 | 32GB | 12GB (12288MB) |
 
-> ⚠️ PC 전체 RAM의 절반 이상은 주지 마. 운영체제도 RAM이 필요해.
+> ⚠️ PC 전체 RAM의 절반 이상은 할당하지 마세요. 운영체제도 RAM이 필요합니다.
 
 ---
 
 ## 게임 내 그래픽 설정
 
-게임 켜고 `ESC → Options → Video Settings` 로 들어가.
+게임 켜고 `ESC → Options → Video Settings` 로 들어가세요.
 
 ### 기본 최적화 설정
 
@@ -51,12 +51,12 @@ CurseForge 앱 → 모드팩 우클릭 → Profile Options
 | **Entity Distance** | 75% | 100% |
 | **Chunk Updates** | 1 | 3 |
 
-> 💡 **Render Distance가 가장 큰 영향을 줘.**  
-> 8 청크만 해도 대부분 환경에서 쾌적하게 돌아가.
+> 💡 **Render Distance가 가장 큰 영향을 줍니다.**  
+> 8 청크만 해도 대부분 환경에서 쾌적하게 돌아갑니다.
 
 ### Sodium / Iris 설정 (모드팩 포함 여부 확인)
 
-이 모드팩에 Sodium이 포함되어 있으면 추가 설정 가능해.
+이 모드팩에 Sodium이 포함되어 있으면 추가 설정 가능합니다.
 
 ```
 Video Settings → Quality 탭
@@ -70,12 +70,12 @@ Video Settings → Quality 탭
 
 ## FPS 낮을 때 체크리스트
 
-게임이 버벅거리면 순서대로 확인해봐.
+게임이 버벅거리면 순서대로 확인해보세요.
 
 ### 1단계: RAM 부족 확인
 ```
 F3 눌러서 디버그 창 열기
-오른쪽 위에 메모리 사용량 표시됨
+오른쪽 위에 메모리 사용량 표시됩니다
 
 예시: 7412MB / 8192MB (91%)
 → 90% 이상이면 RAM 부족! 할당량 늘리기
@@ -104,12 +104,12 @@ CurseForge → 모드팩 → Java Settings → Additional Java Arguments 에 아
 -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
 ```
 
-> 💡 이 설정은 가비지 컬렉션(메모리 정리)을 최적화해줘.  
-> 특히 **주기적으로 멈추는 렉(프리징)**이 줄어들어.
+> 💡 이 설정은 가비지 컬렉션(메모리 정리)을 최적화해줍니다.  
+> 특히 **주기적으로 멈추는 렉(프리징)**이 줄어듭니다.
 
 ### 5단계: 셰이더 끄기
 
-셰이더가 켜져 있으면 성능을 엄청 잡아먹어.
+셰이더가 켜져 있으면 성능을 엄청 많이 사용합니다.
 
 ```
 Video Settings → Shader Packs
@@ -123,15 +123,15 @@ Video Settings → Shader Packs
 ### 🔴 FPS가 계속 낮아 (15~30 FPS)
 → Render Distance 낮추기, RAM 늘리기, 셰이더 끄기
 
-### 🟡 갑자기 멈췄다가 돌아와 (프리징)
+### 🟡 갑자기 멈췄다가 돌아옵니다 (프리징)
 → Java 인수 최적화, RAM 늘리기 (GC 문제)
 
 ### 🟠 특정 지역에서만 렉
-→ 그 지역에 복잡한 모드 기계가 있을 가능성 높음  
+→ 그 지역에 복잡한 모드 기계가 있을 가능성이 높습니다  
 → Create/Mekanism 대형 기계 근처에서 흔한 현상
 
 ### 🟣 서버(멀티) 렉
-→ 서버 호스트 PC 사양 문제일 가능성 높음  
+→ 서버 호스트 PC 사양 문제일 가능성이 높습니다  
 → 호스트 PC RAM 할당량 확인
 
 ---
@@ -186,5 +186,5 @@ Graphics: Fancy
 Smooth Lighting: On
 Clouds: Fancy
 Particles: All
-셰이더: 원하는 것 사용 가능
+셰이더: 원하는 셰이더를 사용할 수 있습니다
 ```

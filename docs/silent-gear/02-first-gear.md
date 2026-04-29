@@ -27,7 +27,7 @@ Blueprint Package를 우클릭 → 모든 종류의 Blueprint와 Template이 인
 :::tip Blueprint vs Template
 | 종류 | 재사용 |
 |------|--------|
-| **Blueprint** (청색) | 무한 재사용 가능 ♾️ |
+| **Blueprint** (청색) | 무한 재사용할 수 있습니다 ♾️ |
 | **Template** (황색) | 1회 사용 후 소모 |
 
 Blueprint Package로 받은 것은 대부분 Blueprint이므로 잃어버리지 않도록 주의하세요.
@@ -159,4 +159,4 @@ Iron Pickaxe
 
 **재료를 Ctrl로 눌러도 스탯이 안 나와요.**
 → 해당 아이템이 Silent Gear 재료로 등록된 소재인지 확인하세요.  
-→ 모든 아이템이 재료로 사용 가능한 것은 아닙니다.
+→ 모든 아이템이 재료로 사용할 수 있습니다한 것은 아닙니다.

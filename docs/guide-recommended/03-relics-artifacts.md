@@ -70,7 +70,7 @@ tags: [relics, artifacts, 유물, 아티팩트, curios]
 | 유물 이름 | 효과 |
 |-----------|------|
 | **Magma Walker** | 뜨거운 블록 면역 + 일시적 용암 위 걷기 |
-| **Phantom Boot** | 발 아래 임시 블록 생성 (공중 이동 가능) |
+| **Phantom Boot** | 발 아래 임시 블록 생성 (공중 이동할 수 있습니다) |
 | **Ender Hand** | 타겟과 위치 교체 (텔레포트) |
 | **Firefly Queen** | 어두운 곳에서 임시 광원 자동 생성 |
 | **Cicada in a Bottle** | 피격 시 주변 적이 공격 대상을 다른 몹으로 전환 |

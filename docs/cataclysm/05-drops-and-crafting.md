@@ -75,7 +75,7 @@ Witherite Ingot × 6  (Harbinger 드롭 Witherite Block 분해)
 획득: Ancient Remnant 처치 드롭
 효과: 사용 시 모래 폭풍 소환
 조합: Wrath of the Desert 재료
-또한: Curio 슬롯에 착용 → 모래 회오리 변신 이동 가능
+또한: Curio 슬롯에 착용 → 모래 회오리 변신 이동할 수 있습니다
 ```
 
 ### ⛏️ Infernal Forge

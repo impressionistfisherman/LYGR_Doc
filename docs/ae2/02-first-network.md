@@ -125,7 +125,7 @@ ME Crafting Terminal: 터미널 + 제작대 통합 버전 (추천)
   [ ] 에너지 공급 중 (Energy Acceptor에 에너지 연결됨)
   [ ] ME Drive에 불이 켜짐
   [ ] ME Terminal 열림
-  [ ] 아이템을 터미널에 넣으면 저장됨
+  [ ] 아이템을 터미널에 넣으면 저장됩니다
   [ ] 검색 기능 작동
 ```
 

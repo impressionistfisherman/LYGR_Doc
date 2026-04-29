@@ -33,7 +33,7 @@ Dungeons and Taverns의 핵심은 **여관에서 시작**합니다.
 2. 제도사와 거래해 경험치 레벨업 (견습생 이상으로)
 3. 던전 지도(Chart) 구매 가능 상태 확인
 4. 지도를 구매해 목표 구조물 위치 파악
-5. 이후 지도를 원하는 위치로 이동 가능
+5. 이후 지도를 원하는 위치로 이동할 수 있습니다
 ```
 
 ### 여관 종류
@@ -221,5 +221,5 @@ Dungeons and Taverns에는 4명의 미니보스가 있습니다.
   /locate structure nova_structures:end_castle
   /locate structure nova_structures:nether_keep
 
-탭 자동완성 사용 가능
+탭 자동완성 사용할 수 있습니다
 ```

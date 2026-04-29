@@ -2,7 +2,7 @@
 title: 재료 & 특성 (Trait) 가이드
 sidebar_label: 재료 & 특성
 sidebar_position: 3
-description: Silent Gear에서 사용 가능한 주요 재료별 스탯과 특성(Trait) 목록, 그리고 재료 선택 기준을 완전히 이해합니다.
+description: Silent Gear에서 사용할 수 있습니다한 주요 재료별 스탯과 특성(Trait) 목록, 그리고 재료 선택 기준을 완전히 이해합니다.
 tags: [silent-gear, 재료, 특성, trait]
 ---
 
