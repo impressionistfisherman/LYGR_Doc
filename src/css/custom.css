@@ -254,8 +254,7 @@ body {
   border-radius: 8px;
   border-spacing: 0;
   box-shadow: 0 10px 24px rgba(48, 38, 28, 0.05);
-  display: block;
-  overflow-x: auto;
+  display: table;
   width: 100%;
 }
 
@@ -342,6 +341,11 @@ body {
 
   .theme-doc-markdown h1 {
     font-size: 1.9rem;
+  }
+
+  .theme-doc-markdown table {
+    display: block;
+    overflow-x: auto;
   }
 
   .theme-doc-markdown th,
