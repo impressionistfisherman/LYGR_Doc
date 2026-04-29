@@ -64,7 +64,7 @@ const config: Config = {
       title: 'LYGR Docs',
       logo: {
         alt: 'LYGR Docs Logo',
-        src: 'img/logo.svg',
+        src: 'img/lygr-logo.png',
       },
       items: [
         {
