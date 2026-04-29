@@ -69,7 +69,7 @@ const config: Config = {
       items: [
         {
           type: 'dropdown',
-          label: 'Guides',
+          label: '모드팩 가이드',
           position: 'left',
           items: [
             {label: '가이드 홈', to: '/'},

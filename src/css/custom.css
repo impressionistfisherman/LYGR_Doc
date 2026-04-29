@@ -87,6 +87,23 @@
   border-left: 1px solid var(--ifm-color-emphasis-200);
 }
 
+.theme-doc-breadcrumbs .breadcrumbs__item:nth-child(2) .breadcrumbs__link {
+  background: rgba(108, 77, 246, 0.1);
+  border: 1px solid rgba(108, 77, 246, 0.18);
+  border-radius: 999px;
+  color: var(--ifm-color-primary);
+  font-weight: 850;
+  padding: 0.28rem 0.65rem;
+}
+
+.theme-doc-breadcrumbs .breadcrumbs__item:nth-child(2)::before {
+  color: var(--ifm-color-emphasis-600);
+  content: '현재 모드';
+  font-size: 0.78rem;
+  font-weight: 800;
+  margin-right: 0.45rem;
+}
+
 .table-of-contents {
   font-size: 0.86rem;
 }
