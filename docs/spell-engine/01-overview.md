@@ -56,7 +56,7 @@ Spell Engine은 마법을 어떻게 사용하는지 담당하고, Spell Power는
 | **Paladins** | Holy, Healing | 근접 + 마법 혼합 |
 | **Forcemaster** | Arcane | 물리력 기반 마법 |
 
-그 외 직업(Berserker, Rogue 등)도 일부 보조 주문을 사용하지만  
+그 외 직업(Berserker, Rogue, Archer 등)도 일부 보조 주문을 사용하지만
 마법 시스템에 의존도가 낮습니다.
 
 ---

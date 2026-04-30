@@ -120,6 +120,7 @@ RPG Series 직업별 전용 악세서리가 추가됩니다.
   Paladin's Holy Pendant: 치유 효과 증가
   Rogue's Shadow Earring: 은신 지속 시간 증가
   Berserker's Rage Torc: Rage 속성 강화
+  Archer's Precision Charm: 원거리 피해와 명중 보조
 ```
 
 ---
@@ -149,6 +150,13 @@ Leather Belt (Relics): Charm 슬롯 +8
 반지: Amethyst Ring × 2 (마법 적성)
 목걸이: 주문 강화 목걸이
 악세서리: Relics (RPG) 주문 강화 트링켓
+```
+
+**원거리 딜러 (Archer):**
+```
+반지: Ruby Ring + Opal Ring (공격력 + 범용 보너스)
+목걸이: 원거리 피해 또는 치명타 보조 목걸이
+악세서리: Archer 전용 악세서리 + 이동 보조 트링켓
 ```
 
 **지원/탱커 (Paladin):**
