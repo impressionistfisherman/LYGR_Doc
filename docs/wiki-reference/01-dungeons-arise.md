@@ -2,7 +2,7 @@
 title: When Dungeons Arise — 구조물 전체 목록
 sidebar_label: Dungeons Arise
 sidebar_position: 1
-description: When Dungeons Arise(+Seven Seas) 모드의 전체 구조물 목록, 난이도, 탐험 방법, 전용 인챈트를 정리합니다.
+description: When Dungeons Arise(+Seven Seas) 모드의 구조물 목록, 난이도, 탐험 방법, 전용 인챈트를 정리합니다.
 tags: [dungeons-arise, 구조물, 던전, 탐험, 위키]
 ---
 

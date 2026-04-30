@@ -2,7 +2,7 @@
 title: Witcher (위처)
 sidebar_label: Witcher
 sidebar_position: 6
-description: 징표(Sign)와 검 전투를 결합한 마법검사 Witcher의 핵심 메커니즘, 징표 시스템, 포션 활용법을 완전히 이해합니다.
+description: 징표(Sign)와 검 전투를 결합한 마법검사 Witcher의 핵심 메커니즘, 징표 시스템, 포션 활용법을 이해합니다.
 tags: [witcher, 마법검사, 징표, 포션, 직업]
 ---
 

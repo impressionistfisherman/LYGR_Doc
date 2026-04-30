@@ -2,7 +2,7 @@
 title: 젬 & 소켓
 sidebar_label: 젬 & 소켓
 sidebar_position: 4
-description: Affix 아이템의 소켓에 젬을 박아 능력치를 추가 강화하는 시스템을 완전히 이해합니다.
+description: Affix 아이템의 소켓에 젬을 박아 능력치를 추가 강화하는 시스템을 이해합니다.
 tags: [apotheosis, 젬, 소켓, 강화]
 ---
 

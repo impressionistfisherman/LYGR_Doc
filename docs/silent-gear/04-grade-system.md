@@ -2,7 +2,7 @@
 title: 등급 시스템 (Grade)
 sidebar_label: 등급 시스템
 sidebar_position: 4
-description: Material Grader를 이용한 재료 등급 향상 방법과 등급별 성능 차이를 완전히 이해합니다.
+description: Material Grader를 이용한 재료 등급 향상 방법과 등급별 성능 차이를 이해합니다.
 tags: [silent-gear, 등급, grade, material-grader]
 ---
 

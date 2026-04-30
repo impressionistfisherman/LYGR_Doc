@@ -2,7 +2,7 @@
 title: 초반 진행 — 강철과 첫 에너지
 sidebar_label: 초반 진행
 sidebar_position: 2
-description: Metallurgic Infuser로 강철을 만들고 첫 발전기로 에너지를 확보하는 Mekanism 초반 단계를 완전히 이해합니다.
+description: Metallurgic Infuser로 강철을 만들고 첫 발전기로 에너지를 확보하는 Mekanism 초반 단계를 이해합니다.
 tags: [mekanism, 초반, 강철, 에너지, 발전기]
 ---
 
@@ -71,6 +71,10 @@ Machine Casing이 있어야 모든 기계 제작이 가능합니다.
 ## Step 4 — 첫 번째 발전기
 
 기계를 돌리려면 에너지가 필요합니다.
+
+> **참고: 발전량 표기 기준**
+>
+> 아래 발전량은 기본 설정 기준의 최대치입니다. 서버 설정, 설치 높이, 날씨, 주변 블록 상태에 따라 실제 출력이 달라질 수 있으므로 JEI와 발전기 툴팁으로 현재 값을 확인하세요.
 
 ### Heat Generator (열 발전기) — 초반 최우선
 

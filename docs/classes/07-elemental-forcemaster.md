@@ -2,7 +2,7 @@
 title: Elemental Wizards & Forcemaster
 sidebar_label: Elemental Wizards & Forcemaster
 sidebar_position: 7
-description: 3원소를 전환하는 Elemental Wizards와 격투 마법사 Forcemaster의 스킬과 플레이 스타일을 완전히 이해합니다.
+description: 3원소를 전환하는 Elemental Wizards와 격투 마법사 Forcemaster의 스킬과 플레이 스타일을 이해합니다.
 tags: [elemental-wizard, forcemaster, 원소마법사, 격투마법사, 직업]
 ---
 

@@ -61,7 +61,7 @@ IDAS의 구조물은 크게 세 단계로 구분됩니다.
 |------|-----------|-------------|
 | **초반** | 철 장비 이상 | Brick House, Cottage, Fisherman's Lodge |
 | **중반** | 다이아몬드 장비 이상 | Haunted House, Bandit Village, Castle |
-| **엔드게임** | 완전한 다이아/네더라이트 + Apotheosis 장비 | Labyrinth, Ancient Mines, Pillager Fortress, Tinker's Workshop |
+| **엔드게임** | 강화된 다이아/네더라이트 + Apotheosis 장비 | Labyrinth, Ancient Mines, Pillager Fortress, Tinker's Workshop |
 
 ---
 

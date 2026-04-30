@@ -2,7 +2,7 @@
 title: 악세서리 & 장신구 — Accessories / Jewelry / Additional RPG Jewelry
 sidebar_label: 악세서리 & 장신구
 sidebar_position: 4
-description: Accessories, Jewelry, Additional RPG Jewelry 모드의 악세서리 슬롯 시스템과 장신구 획득/활용법을 완전히 이해합니다.
+description: Accessories, Jewelry, Additional RPG Jewelry 모드의 악세서리 슬롯 시스템과 장신구 획득/활용법을 이해합니다.
 tags: [accessories, jewelry, 악세서리, 장신구, curios]
 ---
 

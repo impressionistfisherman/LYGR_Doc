@@ -2,7 +2,7 @@
 title: 고급 장비 — 제트팩, MekaSuit, Mekatool
 sidebar_label: 고급 장비
 sidebar_position: 6
-description: Mekanism의 최고급 개인 장비인 제트팩, Free Runners, MekaSuit, Atomic Disassembler, Mekatool을 완전히 이해합니다.
+description: Mekanism의 최고급 개인 장비인 제트팩, Free Runners, MekaSuit, Atomic Disassembler, Mekatool을 이해합니다.
 tags: [mekanism, 장비, 제트팩, mekasuit, mekatool]
 ---
 

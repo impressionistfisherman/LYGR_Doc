@@ -2,7 +2,7 @@
 title: 자동 제작 (Autocrafting)
 sidebar_label: 자동 제작
 sidebar_position: 5
-description: AE2의 핵심 기능인 자동 제작 시스템을 Pattern, Pattern Provider, Molecular Assembler를 이용해 구축하는 방법을 완전히 이해합니다.
+description: AE2의 핵심 기능인 자동 제작 시스템을 Pattern, Pattern Provider, Molecular Assembler를 이용해 구축하는 방법을 이해합니다.
 tags: [ae2, autocrafting, 자동제작, 패턴, 어셈블러]
 ---
 

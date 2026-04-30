@@ -2,7 +2,7 @@
 title: 유물 & 아티팩트 — Relics / More Relics / Artifacts
 sidebar_label: 유물 & 아티팩트
 sidebar_position: 3
-description: Relics, More Relics(RPG Series), Artifacts 모드의 유물 시스템, 획득 방법, 레벨업 메커니즘을 완전히 이해합니다.
+description: Relics, More Relics(RPG Series), Artifacts 모드의 유물 시스템, 획득 방법, 레벨업 메커니즘을 이해합니다.
 tags: [relics, artifacts, 유물, 아티팩트, curios]
 ---
 

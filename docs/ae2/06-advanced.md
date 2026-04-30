@@ -2,7 +2,7 @@
 title: 고급 기능 — 무선 터미널, Quantum Bridge, 서브네트워크
 sidebar_label: 고급 기능
 sidebar_position: 6
-description: AE2의 무선 접속, Quantum Network Bridge, 서브네트워크, ME Wireless Connector 등 고급 기능을 완전히 이해합니다.
+description: AE2의 무선 접속, Quantum Network Bridge, 서브네트워크, ME Wireless Connector 등 고급 기능을 이해합니다.
 tags: [ae2, 무선터미널, quantum-bridge, 서브네트워크]
 ---
 

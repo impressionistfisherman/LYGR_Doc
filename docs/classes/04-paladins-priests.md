@@ -2,7 +2,7 @@
 title: Paladins & Priests (팔라딘 & 프리스트)
 sidebar_label: Paladins & Priests
 sidebar_position: 4
-description: 성스러운 전사 Paladin과 치유 지원가 Priest의 스킬, 장비, 플레이 스타일을 완전히 이해합니다.
+description: 성스러운 전사 Paladin과 치유 지원가 Priest의 스킬, 장비, 플레이 스타일을 이해합니다.
 tags: [paladin, priest, 직업, 힐러, 성스러움]
 ---
 

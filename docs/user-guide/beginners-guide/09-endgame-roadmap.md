@@ -150,7 +150,7 @@ flowchart TD
 
 - [ ] Cataclysm 주요 보스 전부 처치
 - [ ] Mekanism 최종 장비 완성
-- [ ] AE2 완전 자동 제작 시스템 완성
+- [ ] AE2 자동 제작 시스템 완성
 - [ ] Apotheosis 세계 티어 최종 단계 달성
 - [ ] RPG Classes 최종 빌드 완성
 - [ ] Puffish Skills 핵심 트리 완성

@@ -2,7 +2,7 @@
 title: 강화 몬스터 — Mutant Monsters / Infernal Mobs
 sidebar_label: 강화 몬스터
 sidebar_position: 6
-description: Mutant Monsters의 6종 뮤턴트 미니보스 공략과 Infernal Mobs의 랜덤 능력 시스템을 완전히 이해합니다.
+description: Mutant Monsters의 6종 뮤턴트 미니보스 공략과 Infernal Mobs의 랜덤 능력 시스템을 이해합니다.
 tags: [mutant-monsters, infernal-mobs, 뮤턴트, 강화몬스터]
 ---
 

@@ -2,7 +2,7 @@
 title: 스펠 파워 & 데미지 강화
 sidebar_label: 스펠 파워
 sidebar_position: 4
-description: Spell Power 모드의 계열별 데미지 스탯과 마법 데미지를 효과적으로 강화하는 방법을 완전히 이해합니다.
+description: Spell Power 모드의 계열별 데미지 스탯과 마법 데미지를 효과적으로 강화하는 방법을 이해합니다.
 tags: [spell-power, 스펠파워, 데미지, 강화]
 ---
 

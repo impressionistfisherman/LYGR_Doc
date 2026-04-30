@@ -2,7 +2,7 @@
 title: Wizards (위자드)
 sidebar_label: Wizards
 sidebar_position: 5
-description: 비전/화염/냉기 3가지 마법 경로를 선택할 수 있는 Wizards 직업의 핵심 메커니즘과 스킬을 완전히 이해합니다.
+description: 비전/화염/냉기 3가지 마법 경로를 선택할 수 있는 Wizards 직업의 핵심 메커니즘과 스킬을 이해합니다.
 tags: [wizard, 마법사, 직업, 비전, 화염, 냉기]
 ---
 

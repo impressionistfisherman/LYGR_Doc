@@ -2,7 +2,7 @@
 title: Rogues & Warriors (로그 & 워리어)
 sidebar_label: Rogues & Warriors
 sidebar_position: 3
-description: 은신 암살자 Rogue와 방패 탱커 Warrior의 스킬, 장비, 플레이 스타일을 완전히 이해합니다.
+description: 은신 암살자 Rogue와 방패 탱커 Warrior의 스킬, 장비, 플레이 스타일을 이해합니다.
 tags: [rogue, warrior, 직업, 암살자, 탱커]
 ---
 

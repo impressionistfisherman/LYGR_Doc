@@ -2,7 +2,7 @@
 title: 자동 아이템 수입/수출
 sidebar_label: 자동 입출력
 sidebar_position: 4
-description: ME Import Bus, Export Bus, Storage Bus를 이용해 외부 인벤토리와 ME 네트워크를 자동으로 연동하는 방법을 완전히 이해합니다.
+description: ME Import Bus, Export Bus, Storage Bus를 이용해 외부 인벤토리와 ME 네트워크를 자동으로 연동하는 방법을 이해합니다.
 tags: [ae2, import-bus, export-bus, storage-bus, 자동화]
 ---
 

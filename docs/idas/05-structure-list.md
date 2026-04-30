@@ -1,12 +1,12 @@
 ---
-title: 전체 구조물 목록 & /locate 명령어
+title: 구조물 목록 & /locate 명령어
 sidebar_label: 구조물 목록
 sidebar_position: 5
 description: IDAS의 모든 구조물 목록과 /locate 명령어 사용법을 정리한 레퍼런스입니다.
 tags: [idas, 구조물, locate, 레퍼런스]
 ---
 
-# 전체 구조물 목록 & /locate 명령어
+# 구조물 목록 & /locate 명령어
 
 ---
 
@@ -34,7 +34,7 @@ tags: [idas, 구조물, locate, 레퍼런스]
 
 ---
 
-## 전체 구조물 목록
+## 구조물 목록
 
 ### 오버월드 — 초반 구조물
 

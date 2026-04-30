@@ -2,7 +2,7 @@
 title: 작업대 가이드
 sidebar_label: 작업대 5종
 sidebar_position: 5
-description: Apotheosis 전용 작업대 5종의 기능과 사용 방법을 완전히 이해합니다.
+description: Apotheosis 전용 작업대 5종의 기능과 사용 방법을 이해합니다.
 tags: [apotheosis, 작업대, 리포징, 분해, 강화]
 ---
 

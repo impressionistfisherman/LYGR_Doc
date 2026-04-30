@@ -2,7 +2,7 @@
 title: Silent's Gems & Gear Soul
 sidebar_label: Gems & Gear Soul
 sidebar_position: 7
-description: Silent's Gems의 보석 채굴 시스템과 Gear Soul을 이용한 장비 장기 성장 메커니즘을 완전히 이해합니다.
+description: Silent's Gems의 보석 채굴 시스템과 Gear Soul을 이용한 장비 장기 성장 메커니즘을 이해합니다.
 tags: [silent-gems, gear-soul, 보석, 소울]
 ---
 

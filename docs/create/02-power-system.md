@@ -2,7 +2,7 @@
 title: 동력 시스템 — 발전기와 전달
 sidebar_label: 동력 시스템
 sidebar_position: 2
-description: Create의 모든 발전기 종류와 회전력 전달 방법, 과부하 대처법을 완전히 이해합니다.
+description: Create의 발전기 종류와 회전력 전달 방법, 과부하 대처법을 이해합니다.
 tags: [create, 발전기, rpm, su, 동력]
 ---
 
@@ -14,6 +14,8 @@ tags: [create, 발전기, rpm, su, 동력]
 ---
 
 ## 발전기 종류
+
+아래 RPM/SU 수치는 기본 설정 기준입니다. 모드팩 설정에 따라 값이 달라질 수 있으므로, 실제 출력은 Engineer's Goggles로 확인하세요.
 
 ### 🖐️ Hand Crank (손 크랭크)
 

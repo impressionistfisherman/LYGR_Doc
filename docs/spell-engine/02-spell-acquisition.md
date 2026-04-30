@@ -2,7 +2,7 @@
 title: 주문 습득 방법
 sidebar_label: 주문 습득
 sidebar_position: 2
-description: 스펠 스크롤 획득부터 스펠북 등록까지, 주문을 사용하기 위한 준비 과정을 완전히 이해합니다.
+description: 스펠 스크롤 획득부터 스펠북 등록까지, 주문을 사용하기 위한 준비 과정을 이해합니다.
 tags: [spell-engine, 스펠북, 스크롤, 주문습득]
 ---
 

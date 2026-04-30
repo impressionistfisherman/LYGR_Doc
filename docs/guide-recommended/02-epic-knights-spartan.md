@@ -2,7 +2,7 @@
 title: 중세 무기 — Epic Knights / Spartan Weaponry
 sidebar_label: 중세 무기
 sidebar_position: 2
-description: Epic Knights의 16개 갑옷 세트와 26종 무기, Spartan Weaponry의 전투 특성 시스템을 완전히 이해합니다.
+description: Epic Knights의 16개 갑옷 세트와 26종 무기, Spartan Weaponry의 전투 특성 시스템을 이해합니다.
 tags: [epic-knights, spartan-weaponry, 갑옷, 무기, 중세]
 ---
 

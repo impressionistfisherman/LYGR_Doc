@@ -2,7 +2,7 @@
 title: 주문 시전 방법
 sidebar_label: 주문 시전
 sidebar_position: 3
-description: 스펠 핫바 조작, 시전 방식(즉시/차징), 쿨다운 관리까지 전투 중 마법 사용법을 완전히 이해합니다.
+description: 스펠 핫바 조작, 시전 방식(즉시/차징), 쿨다운 관리까지 전투 중 마법 사용법을 이해합니다.
 tags: [spell-engine, 시전, 핫바, 쿨다운]
 ---
 

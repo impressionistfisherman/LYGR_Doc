@@ -2,7 +2,7 @@
 title: 장비 강화 — Advanced Netherite / Runes
 sidebar_label: 장비 강화
 sidebar_position: 5
-description: Advanced Netherite의 4단계 네더라이트 강화 시스템과 Runes의 룬 각인 시스템을 완전히 이해합니다.
+description: Advanced Netherite의 4단계 네더라이트 강화 시스템과 Runes의 룬 각인 시스템을 이해합니다.
 tags: [advanced-netherite, runes, 네더라이트, 룬, 강화]
 ---
 

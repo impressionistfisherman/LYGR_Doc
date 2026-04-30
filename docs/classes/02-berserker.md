@@ -2,7 +2,7 @@
 title: Berserker (버서커)
 sidebar_label: Berserker
 sidebar_position: 2
-description: 분노를 먹고 사는 근접 광전사 Berserker의 핵심 메커니즘, 스킬, 장비, 플레이 방법을 완전히 이해합니다.
+description: 분노를 먹고 사는 근접 광전사 Berserker의 핵심 메커니즘, 스킬, 장비, 플레이 방법을 이해합니다.
 tags: [berserker, 직업, 근접, 광전사]
 ---
 

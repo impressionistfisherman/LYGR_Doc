@@ -2,7 +2,7 @@
 title: 컨트랩션 (Contraption) 시스템
 sidebar_label: 컨트랩션
 sidebar_position: 6
-description: Create의 핵심 기능인 움직이는 구조물 컨트랩션의 종류, 제작 방법, 활용법을 완전히 이해합니다.
+description: Create의 핵심 기능인 움직이는 구조물 컨트랩션의 종류, 제작 방법, 활용법을 이해합니다.
 tags: [create, 컨트랩션, contraption, 이동구조물]
 ---
 

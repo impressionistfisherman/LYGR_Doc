@@ -2,7 +2,7 @@
 title: Dungeons and Taverns — 구조물 전체 목록
 sidebar_label: Dungeons and Taverns
 sidebar_position: 2
-description: Dungeons and Taverns 모드의 전체 구조물 목록, 여관 시스템, 자물쇠 & 열쇠 시스템, 전용 인챈트 17종을 정리합니다.
+description: Dungeons and Taverns 모드의 구조물 목록, 여관 시스템, 자물쇠 & 열쇠 시스템, 전용 인챈트 17종을 정리합니다.
 tags: [dungeons-and-taverns, 구조물, 여관, 인챈트, 위키]
 ---
 

@@ -2,7 +2,7 @@
 title: Affix 시스템
 sidebar_label: Affix 시스템
 sidebar_position: 3
-description: Apotheosis의 핵심인 Affix 아이템 등급, 효과, 획득 방법을 완전히 이해합니다.
+description: Apotheosis의 핵심인 Affix 아이템 등급, 효과, 획득 방법을 이해합니다.
 tags: [apotheosis, affix, 장비, 등급, 희귀도]
 ---
 

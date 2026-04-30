@@ -2,7 +2,7 @@
 title: 광석 처리 시스템 (2x \~ 5x)
 sidebar_label: 광석 처리
 sidebar_position: 3
-description: Mekanism의 핵심인 광석 처리 1\~5배 증산 시스템을 단계별로 완전히 이해합니다.
+description: Mekanism의 핵심인 광석 처리 1\~5배 증산 시스템을 단계별로 이해합니다.
 tags: [mekanism, 광석처리, 증산, 자동화]
 ---
 

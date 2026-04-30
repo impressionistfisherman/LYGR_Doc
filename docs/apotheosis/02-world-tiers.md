@@ -2,7 +2,7 @@
 title: 월드 티어 (World Tier)
 sidebar_label: 월드 티어
 sidebar_position: 2
-description: Apotheosis의 5단계 난이도/보상 시스템인 월드 티어를 완전히 이해합니다.
+description: Apotheosis의 5단계 난이도/보상 시스템인 월드 티어를 이해합니다.
 tags: [apotheosis, 월드티어, 난이도, 진행]
 ---
 

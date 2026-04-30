@@ -128,11 +128,11 @@ const config: Config = {
             {label: 'Create', to: '/docs/create/overview'},
             {label: 'Mekanism', to: '/docs/mekanism/overview'},
             {label: 'Applied Energistics 2', to: '/docs/ae2/overview'},
-            {label: 'Structures', to: '/docs/idas/overview'},
+            {label: 'IDAS', to: '/docs/idas/overview'},
             {label: 'Cataclysm', to: '/docs/cataclysm/overview'},
             {label: 'RPG Classes', to: '/docs/classes/class-overview'},
-            {label: 'Weapons & Others', to: '/docs/guide-recommended/archers-armory-arsenal'},
-            {label: 'Dungeons mods', to: '/docs/wiki-reference/dungeons-arise'},
+            {label: '장비 & 기타', to: '/docs/guide-recommended/archers-armory-arsenal'},
+            {label: '던전 모드', to: '/docs/wiki-reference/dungeons-arise'},
           ],
         },
         {
@@ -188,7 +188,7 @@ const config: Config = {
           title: '유저 가이드',
           items: [
             {
-              label: '초보자 완전 가이드',
+              label: '초보자 가이드',
               to: '/docs/user-guide/beginners-guide',
             },
             {

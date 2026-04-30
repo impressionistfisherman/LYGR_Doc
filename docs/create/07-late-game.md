@@ -2,7 +2,7 @@
 title: 후반 진행 — 증기 엔진과 대규모 자동화
 sidebar_label: 후반 진행
 sidebar_position: 7
-description: 증기 엔진 구축, 기차 시스템, 그리고 대규모 완전 자동화 공장을 만드는 방법을 다룹니다.
+description: 증기 엔진 구축, 기차 시스템, 그리고 대규모 자동화 공장을 만드는 방법을 다룹니다.
 tags: [create, 후반, 증기엔진, 기차, 대규모자동화]
 ---
 

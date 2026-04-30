@@ -1,12 +1,12 @@
 ---
-title: 핵심 기계 완전 목록
+title: 핵심 기계 목록
 sidebar_label: 기계 목록
 sidebar_position: 4
 description: Create 주요 기계의 기능, 설치 방법, 활용법을 정리한 레퍼런스입니다.
 tags: [create, 기계, 자동화, 레퍼런스]
 ---
 
-# 핵심 기계 완전 목록
+# 핵심 기계 목록
 
 Create의 모든 주요 기계를 기능별로 정리합니다.
 각 기계의 자세한 사용법은 인게임에서 **W키(Ponder)** 로 확인하세요.
