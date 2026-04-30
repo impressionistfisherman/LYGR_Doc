@@ -8,7 +8,7 @@ tags: [ae2, autocrafting, 자동제작, 패턴, 어셈블러]
 
 # 자동 제작 (Autocrafting)
 
-AE2의 가장 강력한 기능입니다.  
+AE2의 가장 강력한 기능입니다.
 원클릭으로 복잡한 다단계 레시피를 **자동으로 제작**합니다.
 
 ---
@@ -50,10 +50,10 @@ AE2의 가장 강력한 기능입니다.
 | **Smithing Pattern** | 스미싱 레시피 자동화 |
 | **Stone Cutting Pattern** | 석조 자르기 레시피 자동화 |
 
-:::tip 레시피 불러오기
-Pattern Encoding Terminal에서 JEI의 레시피를 직접 불러올 수 있습니다.  
-JEI에서 원하는 레시피 클릭 → "Transfer to Pattern" 버튼 → 자동으로 패턴에 재료 배치
-:::
+> **참고: 레시피 불러오기**
+>
+> Pattern Encoding Terminal에서 JEI의 레시피를 직접 불러올 수 있습니다.
+> JEI에서 원하는 레시피 클릭 → "Transfer to Pattern" 버튼 → 자동으로 패턴에 재료 배치
 
 ---
 
@@ -182,7 +182,7 @@ AE2 자동 제작의 진가는 **복잡한 다단계 레시피**에서 드러납
 
 ### 재귀 레시피 주의사항
 
-AE2는 재귀 레시피(A → B → A)를 처리하지 못합니다.  
+AE2는 재귀 레시피(A → B → A)를 처리하지 못합니다.
 이런 경우 Level Emitter를 활용해 별도 자동화로 처리하세요.
 
 ---

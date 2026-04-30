@@ -24,14 +24,14 @@ JEI에서 `Blueprint Package`를 검색 → 조합법 확인 후 제작
 
 Blueprint Package를 우클릭 → 모든 종류의 Blueprint와 Template이 인벤토리에 추가됩니다.
 
-:::tip Blueprint vs Template
-| 종류 | 재사용 |
-|------|--------|
-| **Blueprint** (청색) | 무한 재사용할 수 있습니다 ♾️ |
-| **Template** (황색) | 1회 사용 후 소모 |
-
-Blueprint Package로 받은 것은 대부분 Blueprint이므로 잃어버리지 않도록 주의하세요.
-:::
+> **참고: Blueprint vs Template**
+>
+> | 종류 | 재사용 |
+> |------|--------|
+> | **Blueprint** (청색) | 무한 재사용할 수 있습니다 ♾️ |
+> | **Template** (황색) | 1회 사용 후 소모 |
+>
+> Blueprint Package로 받은 것은 대부분 Blueprint이므로 잃어버리지 않도록 주의하세요.
 
 ---
 
@@ -143,9 +143,9 @@ Iron Pickaxe
   → 이제 파트 교체 및 업그레이드 가능
 ```
 
-:::info 기존 인챈트는 유지됩니다
-변환 시 기존에 붙어 있던 인챈트는 그대로 유지됩니다.
-:::
+> **정보: 기존 인챈트는 유지됩니다**
+>
+> 변환 시 기존에 붙어 있던 인챈트는 그대로 유지됩니다.
 
 ---
 
@@ -158,5 +158,5 @@ Iron Pickaxe
 → Tip Part를 추가하거나, 해당 특성을 가진 재료로 Head를 만들어야 합니다.
 
 **재료를 Ctrl로 눌러도 스탯이 안 나와요.**
-→ 해당 아이템이 Silent Gear 재료로 등록된 소재인지 확인하세요.  
+→ 해당 아이템이 Silent Gear 재료로 등록된 소재인지 확인하세요.
 → 모든 아이템이 재료로 사용할 수 있습니다한 것은 아닙니다.

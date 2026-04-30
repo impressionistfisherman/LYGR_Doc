@@ -8,8 +8,8 @@ tags: [dungeons-and-taverns, 구조물, 여관, 인챈트, 위키]
 
 # Dungeons and Taverns — 구조물 전체 목록
 
-Dungeons and Taverns는 **바닐라 스타일**로 제작된 100+ 구조물 모드입니다.  
-새로운 블록이나 아이템을 추가하지 않으며, **바닐라 완전 호환**이 특징입니다.  
+Dungeons and Taverns는 **바닐라 스타일**로 제작된 100+ 구조물 모드입니다.
+새로운 블록이나 아이템을 추가하지 않으며, **바닐라 완전 호환**이 특징입니다.
 단, **17가지 전용 인챈트**가 구조물 내에서만 획득 가능합니다.
 
 ---
@@ -102,7 +102,7 @@ Dungeons and Taverns의 핵심은 **여관에서 시작**합니다.
 
 | 구조물 | 특징 |
 |--------|------|
-| **Trident Trial Monument** | 삼지창 테마 시험 구조물 | 
+| **Trident Trial Monument** | 삼지창 테마 시험 구조물 |
 | **Conduit Ruins** | 콘듀잇 설명 가르쳐 주는 구조물 |
 
 ### 🔚 엔드 구조물
@@ -138,16 +138,16 @@ Dungeons and Taverns의 핵심은 **여관에서 시작**합니다.
 | **Piglin Donjon Key** | 피글린 던전 금고 |
 | **Boss Key** | 각 구조물 최종 금고 (최고 루트) |
 
-:::tip Ominous 버전
-일부 열쇠에는 Ominous 버전이 있습니다.  
-Ominous 키로 열면 일반보다 더 좋은 루트가 들어있지만 더 위험합니다.
-:::
+> **참고: Ominous 버전**
+>
+> 일부 열쇠에는 Ominous 버전이 있습니다.
+> Ominous 키로 열면 일반보다 더 좋은 루트가 들어있지만 더 위험합니다.
 
 ---
 
 ## 미니보스 4종
 
-Dungeons and Taverns에는 4명의 미니보스가 있습니다.  
+Dungeons and Taverns에는 4명의 미니보스가 있습니다.
 4명 전부 처치하면 **"Dungeon Master" 업적** 달성.
 
 | 미니보스 | 위치 | 특징 |
@@ -161,7 +161,7 @@ Dungeons and Taverns에는 4명의 미니보스가 있습니다.
 
 ## 전용 인챈트 17종
 
-구조물 내 상자에서만 획득 가능한 인챈트입니다.  
+구조물 내 상자에서만 획득 가능한 인챈트입니다.
 일부는 Secret Librarian 시스템으로 반복 구매 가능합니다.
 
 | 인챈트 | 효과 |

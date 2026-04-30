@@ -8,7 +8,7 @@ tags: [ae2, me네트워크, 드라이브, 터미널, 저장셀]
 
 # 첫 ME 네트워크 구축
 
-처음에는 아주 단순한 네트워크부터 시작합니다.  
+처음에는 아주 단순한 네트워크부터 시작합니다.
 컨트롤러 없이 8채널 이내로 구성하는 **Ad-Hoc 네트워크**입니다.
 
 ---
@@ -37,16 +37,16 @@ tags: [ae2, me네트워크, 드라이브, 터미널, 저장셀]
 | **Logic Processor** | 금 + 프린트 회로 |
 | **Engineering Processor** | 다이아몬드 + 프린트 회로 |
 
-:::tip Processor 제작 — Inscriber 기계 필요
-프로세서(Processor) 제작에는 **Inscriber** 기계가 필요합니다.  
-JEI에서 Inscriber 검색 → 조합법 확인 후 제작하세요.
-:::
+> **참고: Processor 제작 — Inscriber 기계 필요**
+>
+> 프로세서(Processor) 제작에는 **Inscriber** 기계가 필요합니다.
+> JEI에서 Inscriber 검색 → 조합법 확인 후 제작하세요.
 
 ---
 
 ## Step 1 — Energy Acceptor 설치
 
-AE2 네트워크는 자체 에너지 단위(AE)를 사용합니다.  
+AE2 네트워크는 자체 에너지 단위(AE)를 사용합니다.
 FE/RF를 AE로 변환하는 **Energy Acceptor**가 필요합니다.
 
 ```
@@ -55,11 +55,11 @@ Energy Acceptor 설치
 → AE2 네트워크에 에너지 공급 시작
 ```
 
-:::info Crystal Resonance Generator
-에너지 공급이 번거롭다면 **Crystal Resonance Generator**를 대신 사용할 수 있습니다.  
-소량의 에너지를 무료로 생성하는 AE2 전용 발전기로,  
-작은 초반 네트워크를 돌리기에 충분합니다.
-:::
+> **정보: Crystal Resonance Generator**
+>
+> 에너지 공급이 번거롭다면 **Crystal Resonance Generator**를 대신 사용할 수 있습니다.
+> 소량의 에너지를 무료로 생성하는 AE2 전용 발전기로,
+> 작은 초반 네트워크를 돌리기에 충분합니다.
 
 ---
 
@@ -140,11 +140,11 @@ Energy Acceptor와 ME Drive를 케이블로 연결합니다.
 ## 자주 하는 실수
 
 **터미널이 켜지지 않아요.**
-→ 에너지가 연결되어 있는지 확인하세요.  
+→ 에너지가 연결되어 있는지 확인하세요.
 → 모든 기기가 케이블로 연결되어 있는지 확인하세요.
 
 **아이템이 저장되지 않아요.**
-→ Storage Cell이 ME Drive에 삽입되어 있는지 확인하세요.  
+→ Storage Cell이 ME Drive에 삽입되어 있는지 확인하세요.
 → 셀의 타입(Type)이 가득 찼을 수 있습니다. 새 셀을 추가하거나 셀을 파티션하세요.
 
 **ME Drive에 빨간 불이 들어와요.**

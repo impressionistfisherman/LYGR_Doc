@@ -8,7 +8,7 @@ tags: [create, 기계, 자동화, 레퍼런스]
 
 # 핵심 기계 완전 목록
 
-Create의 모든 주요 기계를 기능별로 정리합니다.  
+Create의 모든 주요 기계를 기능별로 정리합니다.
 각 기계의 자세한 사용법은 인게임에서 **W키(Ponder)** 로 확인하세요.
 
 ---
@@ -123,10 +123,10 @@ Create의 모든 주요 기계를 기능별로 정리합니다.
 | **획득** | Blaze를 Cage로 포획 → Burner 제작 |
 | **필요 레시피** | 황동 제작, 고급 합금, 포션 양조 등 |
 
-:::warning 블레이즈 버너 없이는 황동 제작 불가
-황동(Brass)은 Mechanical Mixer + Blaze Burner 가열이 필수입니다.  
-네더 탐험으로 블레이즈를 포획해두세요.
-:::
+> **주의: 블레이즈 버너 없이는 황동 제작 불가**
+>
+> 황동(Brass)은 Mechanical Mixer + Blaze Burner 가열이 필수입니다.
+> 네더 탐험으로 블레이즈를 포획해두세요.
 
 ---
 
@@ -199,11 +199,11 @@ Create의 모든 주요 기계를 기능별로 정리합니다.
 | **동력** | 각 Crafter에 회전력 연결 |
 | **소재** | 안데사이트 케이싱 + 기타 |
 
-:::info Crushing Wheels 제작에 필수
-Crushing Wheels는 일반 제작대로 만들 수 없습니다.  
-Mechanical Crafter 21개를 배열해야 합니다.  
-Ponder에서 배치 방법을 꼭 확인하세요.
-:::
+> **정보: Crushing Wheels 제작에 필수**
+>
+> Crushing Wheels는 일반 제작대로 만들 수 없습니다.
+> Mechanical Crafter 21개를 배열해야 합니다.
+> Ponder에서 배치 방법을 꼭 확인하세요.
 
 ---
 

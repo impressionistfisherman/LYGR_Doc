@@ -14,7 +14,7 @@ tags: [advanced-netherite, runes, 네더라이트, 룬, 강화]
 
 ### 개요
 
-기본 네더라이트를 **4단계 더 강화**할 수 있는 모드입니다.  
+기본 네더라이트를 **4단계 더 강화**할 수 있는 모드입니다.
 각 단계는 고유한 특수 효과를 가집니다.
 
 ### 4가지 강화 단계
@@ -31,10 +31,10 @@ Netherite-Emerald (에메랄드 강화 네더라이트)
 Netherite-Diamond (다이아몬드 강화 네더라이트) ← 최강
 ```
 
-:::warning 단계별 순서 강제
-Netherite-Diamond를 바로 만들 수 없습니다.  
-반드시 Iron → Gold → Emerald → Diamond 순서로 업그레이드해야 합니다.
-:::
+> **주의: 단계별 순서 강제**
+>
+> Netherite-Diamond를 바로 만들 수 없습니다.
+> 반드시 Iron → Gold → Emerald → Diamond 순서로 업그레이드해야 합니다.
 
 ### 단계별 재료
 
@@ -56,11 +56,11 @@ Netherite-Diamond를 바로 만들 수 없습니다.
 | **Netherite-Emerald** | 엔더맨이 플레이어에게 중립 |
 | **Netherite-Diamond** | 피글린 + 엔더맨 모두 중립 |
 
-:::tip 네더 탐험과 엔드 탐험이 편해집니다
-Netherite-Gold 갑옷을 입으면 네더에서 피글린이 공격하지 않아  
-편하게 탐험할 수 있습니다.  
-Netherite-Diamond는 피글린과 엔더맨 모두 무시해서 최고의 탐험 편의성을 제공합니다.
-:::
+> **참고: 네더 탐험과 엔드 탐험이 편해집니다**
+>
+> Netherite-Gold 갑옷을 입으면 네더에서 피글린이 공격하지 않아
+> 편하게 탐험할 수 있습니다.
+> Netherite-Diamond는 피글린과 엔더맨 모두 무시해서 최고의 탐험 편의성을 제공합니다.
 
 ### 도구/무기 강화
 
@@ -103,7 +103,7 @@ Netherite-Diamond 검 수리 → Netherite-Diamond 주괴 사용
 
 ### 개요
 
-무기나 도구에 **룬(Rune)을 각인**해 추가 효과를 부여하는 시스템입니다.  
+무기나 도구에 **룬(Rune)을 각인**해 추가 효과를 부여하는 시스템입니다.
 Paladins 직업 모드와 연계해 신성한 무기를 만들 수도 있습니다.
 
 ### 룬 종류

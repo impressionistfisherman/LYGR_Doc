@@ -8,8 +8,8 @@ tags: [apotheosis, 인챈트, apothicenchanting, 책장, 인퓨전]
 
 # 인챈트 시스템 (ApothicEnchanting)
 
-ApothicEnchanting은 바닐라 인챈트 시스템을 **완전히 재설계**합니다.  
-레벨 30 제한이 사라지고, 인챈트 테이블 주변에 다양한 전용 블록을 배치해  
+ApothicEnchanting은 바닐라 인챈트 시스템을 **완전히 재설계**합니다.
+레벨 30 제한이 사라지고, 인챈트 테이블 주변에 다양한 전용 블록을 배치해
 원하는 인챈트를 유도하고 레벨을 극한까지 올릴 수 있습니다.
 
 ---
@@ -27,12 +27,12 @@ ApothicEnchanting은 바닐라 인챈트 시스템을 **완전히 재설계**합
 
 ## 인챈트 테이블 주변 블록 (Shelf)
 
-책장(Bookshelf) 대신 다양한 전용 Shelf 블록을 인챈트 테이블 주변에 배치할 수 있습니다.  
+책장(Bookshelf) 대신 다양한 전용 Shelf 블록을 인챈트 테이블 주변에 배치할 수 있습니다.
 배치한 블록 종류에 따라 **활성화되는 인챈트 종류와 파워**가 달라집니다.
 
 ### 블록 확인 방법
 
-JEI에서 `shelf` 또는 `apotheosis`로 검색하면 전체 목록이 나옵니다.  
+JEI에서 `shelf` 또는 `apotheosis`로 검색하면 전체 목록이 나옵니다.
 각 Shelf 블록의 툴팁에 **어떤 인챈트를 강화하는지** 표시됩니다.
 
 ### 주요 Shelf 종류 (초반 → 후반 순서)
@@ -75,12 +75,12 @@ JEI에서 `shelf` 또는 `apotheosis`로 검색하면 전체 목록이 나옵니
 2. 원하는 인챈트 계열에 해당하는 Shelf를 추가 배치
 3. 반대 계열 Shelf를 너무 많이 두면 원치 않는 인챈트가 섞일 수 있음
 
-:::tip 인챈트 계열별 Shelf 추천
-- **공격력/무기 계열:** Deepshelf, Infused Deepshelf
-- **방어구 계열:** Seashelf, Crystalline Seashelf  
-- **도구 계열:** Melonshelf, Infused Deepshelf
-- **최대 파워 구성:** Draconic Endshelf + Echoing Deepshelf 조합
-:::
+> **참고: 인챈트 계열별 Shelf 추천**
+>
+> - **공격력/무기 계열:** Deepshelf, Infused Deepshelf
+> - **방어구 계열:** Seashelf, Crystalline Seashelf
+> - **도구 계열:** Melonshelf, Infused Deepshelf
+> - **최대 파워 구성:** Draconic Endshelf + Echoing Deepshelf 조합
 
 ---
 

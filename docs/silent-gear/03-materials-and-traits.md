@@ -54,13 +54,13 @@ tags: [silent-gear, 재료, 특성, trait]
 | **Emerald** | 균형 스탯 | Lucky (행운 증가) |
 | **Topaz** | 높은 내구도 | Renew (자동 내구도 회복) |
 | **Amethyst** | 높은 마법 적성 | Masterful (인챈트 레벨 증가) |
-| **Black Diamond** | 최고 채굴속도+내구도 | Crushing + Renew | 
+| **Black Diamond** | 최고 채굴속도+내구도 | Crushing + Renew |
 | **White Diamond** | 최고 공격력+채굴속도 | Ancient + Lustrous |
 
-:::info Black/White Diamond는 희귀
-Black Diamond는 네더, White Diamond는 엔드에서만 드롭됩니다.  
-최종 장비에 사용하는 재료이므로 초반에 욕심내지 마세요.
-:::
+> **정보: Black/White Diamond는 희귀**
+>
+> Black Diamond는 네더, White Diamond는 엔드에서만 드롭됩니다.
+> 최종 장비에 사용하는 재료이므로 초반에 욕심내지 마세요.
 
 ---
 
