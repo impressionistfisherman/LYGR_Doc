@@ -143,8 +143,8 @@ Purpur 함정 블록: 접촉 시 즉각 피해
 | **Gauntlet of Guard** | 강력한 장갑 무기 (공격 + 보호막 기능) |
 | **음악 디스크 "The Citadel's Last Stand"** | 10% 확률 |
 
-:::tip Void Core는 매우 중요
-Void Core는 Ruined Citadel 내부의 **Ender Golem** 미니보스에게서 얻습니다.
-이후 Void Forge, Void Assault Weapon 등 최종 무기 조합에 필요하므로
-Ender Guardian 공략 전에 성채 내부를 충분히 탐색하세요.
-:::
+> **참고: Void Core는 매우 중요**
+>
+> Void Core는 Ruined Citadel 내부의 **Ender Golem** 미니보스에게서 얻습니다.
+> 이후 Void Forge, Void Assault Weapon 등 최종 무기 조합에 필요하므로
+> Ender Guardian 공략 전에 성채 내부를 충분히 탐색하세요.
