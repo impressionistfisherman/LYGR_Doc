@@ -38,6 +38,10 @@ const config: Config = {
     locales: ['ko'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       'classic',
@@ -50,11 +54,39 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.6,
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: ['/guides', '/docs/guides', '/docs/modpack'],
+            to: '/',
+          },
+          {
+            from: ['/docs/user-guide'],
+            to: '/docs/user-guide/beginners-guide',
+          },
+          {
+            from: ['/docs/setup'],
+            to: '/docs/setup-guide',
+          },
+        ],
+      },
+    ],
+  ],
+
   themes: [
+    '@docusaurus/theme-mermaid',
     [
       '@easyops-cn/docusaurus-search-local',
       {
