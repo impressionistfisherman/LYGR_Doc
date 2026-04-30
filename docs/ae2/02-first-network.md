@@ -114,14 +114,11 @@ Energy Acceptor와 ME Drive를 케이블로 연결합니다.
 
 ## Step 5 — 네트워크 작동 확인
 
-```
-확인 사항:
-  [ ] 에너지 공급 중 (Energy Acceptor에 에너지 연결됨)
-  [ ] ME Drive에 불이 켜짐
-  [ ] ME Terminal 열림
-  [ ] 아이템을 터미널에 넣으면 저장됩니다
-  [ ] 검색 기능 작동
-```
+- [ ] 에너지 공급 중 (Energy Acceptor에 에너지 연결됨)
+- [ ] ME Drive에 불이 켜짐
+- [ ] ME Terminal 열림
+- [ ] 아이템을 터미널에 넣으면 저장됩니다
+- [ ] 검색 기능 작동
 
 ---
 

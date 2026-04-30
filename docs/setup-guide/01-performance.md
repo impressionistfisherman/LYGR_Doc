@@ -5,7 +5,7 @@ title: 성능 최적화 — 렉 줄이기
 
 # 성능 최적화 — 렉 줄이기
 
-> 모드가 178개라 기본 설정으로는 렉이 걸릴 수 있습니다.  
+> 모드가 178개라 기본 설정으로는 렉이 걸릴 수 있습니다.
 > 이 설정들만 해주어도 체감이 확 달라집니다!
 
 ---
@@ -51,7 +51,7 @@ CurseForge 앱 → 모드팩 우클릭 → Profile Options
 | **Entity Distance** | 75% | 100% |
 | **Chunk Updates** | 1 | 3 |
 
-> 💡 **Render Distance가 가장 큰 영향을 줍니다.**  
+> 💡 **Render Distance가 가장 큰 영향을 줍니다.**
 > 8 청크만 해도 대부분 환경에서 쾌적하게 돌아갑니다.
 
 ### Sodium / Iris 설정 (모드팩 포함 여부 확인)
@@ -104,7 +104,7 @@ CurseForge → 모드팩 → Java Settings → Additional Java Arguments 에 아
 -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
 ```
 
-> 💡 이 설정은 가비지 컬렉션(메모리 정리)을 최적화해줍니다.  
+> 💡 이 설정은 가비지 컬렉션(메모리 정리)을 최적화해줍니다.
 > 특히 **주기적으로 멈추는 렉(프리징)**이 줄어듭니다.
 
 ### 5단계: 셰이더 끄기
@@ -127,11 +127,11 @@ Video Settings → Shader Packs
 → Java 인수 최적화, RAM 늘리기 (GC 문제)
 
 ### 🟠 특정 지역에서만 렉
-→ 그 지역에 복잡한 모드 기계가 있을 가능성이 높습니다  
+→ 그 지역에 복잡한 모드 기계가 있을 가능성이 높습니다
 → Create/Mekanism 대형 기계 근처에서 흔한 현상
 
 ### 🟣 서버(멀티) 렉
-→ 서버 호스트 PC 사양 문제일 가능성이 높습니다  
+→ 서버 호스트 PC 사양 문제일 가능성이 높습니다
 → 호스트 PC RAM 할당량 확인
 
 ---

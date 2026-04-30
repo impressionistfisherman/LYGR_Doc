@@ -2,7 +2,7 @@
 title: 핵심 기계 목록
 sidebar_label: 기계 목록
 sidebar_position: 4
-description: Mekanism의 모든 주요 기계의 기능, 용도, 설정 방법을 정리한 완전 레퍼런스입니다.
+description: Mekanism 주요 기계의 기능, 용도, 설정 방법을 정리한 레퍼런스입니다.
 tags: [mekanism, 기계, 레퍼런스]
 ---
 

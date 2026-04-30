@@ -172,4 +172,4 @@ Super Glue는 두 블록을 고정 연결합니다.
 
 **컨트랩션이 분해되지 않아요.**
 → Bearing/Piston의 이동 모드(Movement Mode) 설정을 확인하세요.
-→ 우클릭 길게 누르기 → Value Settings에서 이동 모드 변경할 수 있습니다합니다.
+→ 우클릭 길게 누르기 → Value Settings에서 이동 모드 변경할 수 있습니다.

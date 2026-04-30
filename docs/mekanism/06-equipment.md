@@ -162,21 +162,23 @@ Atomic Disassembler의 후속 최강 도구입니다.
 
 ## 장비 제작 및 진행 순서
 
-```
-중반 초:
-  [ ] 제트팩 (Basic) 제작 — 탐험/생존성 극적 향상
-  [ ] Free Runners 제작 — 낙하 피해 면역
+**중반 초**
 
-중반:
-  [ ] Atomic Disassembler 제작 — 채굴/전투 통합
-  [ ] 제트팩 → Advanced 이상으로 업그레이드
+- [ ] 제트팩 (Basic) 제작 — 탐험/생존성 극적 향상
+- [ ] Free Runners 제작 — 낙하 피해 면역
 
-후반:
-  [ ] MekaSuit 4종 제작 시작
-  [ ] MekaSuit 업그레이드 모듈 추가
-  [ ] Mekatool 제작
+**중반**
 
-최종:
-  [ ] MekaSuit 모든 모듈 완성
-  [ ] Mekatool 최대 성능 달성
-```
+- [ ] Atomic Disassembler 제작 — 채굴/전투 통합
+- [ ] 제트팩 → Advanced 이상으로 업그레이드
+
+**후반**
+
+- [ ] MekaSuit 4종 제작 시작
+- [ ] MekaSuit 업그레이드 모듈 추가
+- [ ] Mekatool 제작
+
+**최종**
+
+- [ ] MekaSuit 모든 모듈 완성
+- [ ] Mekatool 최대 성능 달성

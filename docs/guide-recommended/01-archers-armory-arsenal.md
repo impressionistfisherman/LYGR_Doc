@@ -2,7 +2,7 @@
 title: 활 & 원거리 — Archers / Archers Expansion / Armory / Arsenal
 sidebar_label: 활 & 원거리 장비
 sidebar_position: 1
-description: RPG Series의 Archers, Archers Expansion, Armory, Arsenal 모드 가이드. 활 스킬, 화살통, 전설 무기, 최종 방어구까지 전부 다룹니다.
+description: RPG Series의 Archers, Archers Expansion, Armory, Arsenal 모드 가이드. 활 스킬, 화살통, 전설 무기, 최종 방어구를 다룹니다.
 tags: [archers, armory, arsenal, 원거리, 활, 장비]
 ---
 

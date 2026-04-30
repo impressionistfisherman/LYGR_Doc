@@ -166,13 +166,11 @@ Configurator 손에 들고 기계 면에 우클릭
 
 ## 초반 체크리스트
 
-```
-[ ] 오스뮴 2\~3스택 확보
-[ ] Metallurgic Infuser 제작
-[ ] 강철 주괴 1스택 이상 생산
-[ ] Machine Casing 다량 제작
-[ ] Heat Generator 또는 Wind Generator 설치
-[ ] Basic Energy Cube로 에너지 저장
-[ ] Configurator 제작
-[ ] Enrichment Chamber + Energized Smelter → 광석 2배 처리 시작
-```
+- [ ] 오스뮴 2\~3스택 확보
+- [ ] Metallurgic Infuser 제작
+- [ ] 강철 주괴 1스택 이상 생산
+- [ ] Machine Casing 다량 제작
+- [ ] Heat Generator 또는 Wind Generator 설치
+- [ ] Basic Energy Cube로 에너지 저장
+- [ ] Configurator 제작
+- [ ] Enrichment Chamber + Energized Smelter → 광석 2배 처리 시작
