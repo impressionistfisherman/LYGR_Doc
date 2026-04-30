@@ -2,7 +2,7 @@
 title: 재료 & 특성 (Trait) 가이드
 sidebar_label: 재료 & 특성
 sidebar_position: 3
-description: Silent Gear에서 사용할 수 있습니다한 주요 재료별 스탯과 특성(Trait) 목록, 그리고 재료 선택 기준을 완전히 이해합니다.
+description: Silent Gear에서 사용할 수 있는 주요 재료별 스탯과 특성(Trait) 목록, 그리고 재료 선택 기준을 이해합니다.
 tags: [silent-gear, 재료, 특성, trait]
 ---
 
@@ -139,7 +139,7 @@ Rod: Topaz (Renew — 내구도 걱정 없음)
 
 재료를 선택하기 전에 확인할 사항입니다.
 
-- [ ] Ctrl 키로 스탯 수치 확인
+- [ ] 재료 정보 표시 키로 스탯 수치 확인 (기본 키 후보: Ctrl)
 - [ ] 특성(Trait) 목록 확인 — 부정적 특성 없는지 체크
 - [ ] 현재 제작할 파트 종류에 맞는 재료인지 확인
 - [ ] 원하는 특성이 다른 파트와 조합 가능한지 확인

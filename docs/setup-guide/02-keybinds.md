@@ -78,9 +78,9 @@ ESC → Options → Controls → Key Binds
 | `R` | 아이템 레시피 보기 (아이템 위에서) | JEI |
 | `U` | 아이템 사용처 보기 (아이템 위에서) | JEI |
 | `W` 길게 | Ponder 설명 보기 (Create 아이템 위에서) | Create |
-| `Ctrl + T` | World Tier 화면 열기 | Apotheosis |
+| `Ctrl + T` | World Tier 화면 열기 후보 | Apotheosis |
 | `B` | 착용한 배낭 열기 | Traveler's Backpack |
-| `Ctrl` | 재료 스탯/특성 확인 (아이템 위에서) | Silent Gear |
+| `Ctrl` | 재료 스탯/특성 확인 후보 (아이템 위에서) | Silent Gear |
 
 ---
 
@@ -198,8 +198,8 @@ ESC → Options → Controls → Key Binds
 | `R` | JEI 레시피 |
 | `U` | JEI 사용처 |
 | `W` 길게 | Create Ponder |
-| `Ctrl + T` | Apotheosis World Tier |
+| `Ctrl + T` | Apotheosis World Tier 후보 |
 | `B` | Traveler's Backpack |
-| `Ctrl` | Silent Gear 재료 정보 |
+| `Ctrl` | Silent Gear 재료 정보 후보 |
 
 위 표도 현재 클라이언트의 Controls 값이 우선입니다. 나머지 모드 키는 모드명이나 기능명으로 검색해 확인하세요.

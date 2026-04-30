@@ -264,8 +264,8 @@ XYZ: 123.4 / 64.0 / -56.7
 | `R` | 아이템 레시피 보기 | JEI |
 | `U` | 아이템 사용처 보기 | JEI |
 | `W` 길게 | Create Ponder 설명 보기 | Create |
-| `Ctrl + T` | World Tier 화면 열기 | Apotheosis |
-| `Ctrl` | 재료 스탯/특성 확인 | Silent Gear |
+| `Ctrl + T` | World Tier 화면 열기 후보 | Apotheosis |
+| `Ctrl` | 재료 스탯/특성 확인 후보 | Silent Gear |
 
 > 💡 키가 겹치거나 변경하고 싶으면 `ESC → Options → Controls → Key Binds`에서 기능명을 검색해 변경하세요.
 

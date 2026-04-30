@@ -46,7 +46,8 @@ Apotheosis를 처음 접하면 동시에 너무 많은 것이 쏟아집니다.
 → [Affix 시스템 상세 가이드](/docs/apotheosis/affix-system)
 
 ### 2. 월드 티어 (World Tier)
-첫 Affix 아이템을 주운 뒤 **Ctrl + T** 를 눌러 활성화하는 난이도/보상 단계입니다.
+첫 Affix 아이템을 주운 뒤 World Tier 화면에서 활성화하는 난이도/보상 단계입니다.
+기본 키 후보는 **Ctrl + T**이며, 충돌이 있으면 `Controls`에서 `world tier` 또는 `apotheosis`로 검색해 확인하세요.
 티어가 높을수록 더 강한 적과 더 좋은 장비가 등장합니다.
 → [월드 티어 상세 가이드](/docs/apotheosis/world-tiers)
 
@@ -71,7 +72,7 @@ ApothicEnchanting이 바닐라 인챈트를 완전히 개편합니다.
 ```
 1. Chronicles of Shadows 가이드북 제작
 2. 첫 Affix 아이템 획득 (오버월드 타워 구조물 탐색)
-3. Ctrl + T → World Tier: Haven 활성화
+3. World Tier 화면 열기 (기본 키 후보: Ctrl + T) → World Tier: Haven 활성화
 4. Affix 장비 풀세트 맞추기 (Uncommon 이상 목표)
 5. World Tier: Frontier 해금 → Invader 도전
 6. Gem Cutting Table 제작 → 소켓 활용 시작

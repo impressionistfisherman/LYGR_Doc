@@ -10,11 +10,13 @@ tags: [apotheosis, 월드티어, 난이도, 진행]
 
 월드 티어는 Apotheosis의 **RPG 진행 시스템**입니다.
 티어를 올릴수록 몹이 강해지지만 더 좋은 등급의 Affix 아이템이 드롭됩니다.
-티어는 언제든 **Ctrl + T** 로 올리거나 내릴 수 있습니다.
+티어는 World Tier 화면에서 언제든 올리거나 내릴 수 있습니다.
+기본 키 후보는 **Ctrl + T**이며, 충돌이 있으면 `Controls`에서 `world tier` 또는 `apotheosis`로 검색해 확인하세요.
 
 > **주의: 가장 먼저 해야 할 것**
 >
-> 첫 Affix 아이템을 주웠다면 즉시 **Ctrl + T** 를 눌러 World Tier: Haven을 활성화하세요.
+> 첫 Affix 아이템을 주웠다면 World Tier 화면을 열어 World Tier: Haven을 활성화하세요.
+> 기본 키 후보는 **Ctrl + T**입니다.
 > 이것을 하지 않으면 아이템의 Affix 효과가 **잠긴 채로** 유지됩니다.
 
 ---
@@ -25,7 +27,7 @@ tags: [apotheosis, 월드티어, 난이도, 진행]
 
 | 항목 | 내용 |
 |------|------|
-| **해금 조건** | 첫 Affix 아이템 획득 후 Ctrl+T로 수동 활성화 |
+| **해금 조건** | 첫 Affix 아이템 획득 후 World Tier 화면에서 수동 활성화 |
 | **주요 변화** | Affix 아이템 능력치 잠금 해제 |
 | **드롭 특징** | Common \~ Uncommon 등급 위주 |
 
