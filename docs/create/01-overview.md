@@ -87,14 +87,14 @@ JEI로 조합법 확인 → W키로 Ponder 확인 → 직접 만들어보기
 
 ## 전체 진행 로드맵
 
-```
-1. 엔지니어 고글 제작
-2. 물레방아 or 풍차로 첫 동력 확보
-3. Millstone으로 재료 분쇄 자동화
-4. Mechanical Press + Mixer로 안데사이트 합금 자동 생산
-5. Crushing Wheels로 광석 2배 처리
-6. 황동 생산 라인 → 중반 기계 해금
-7. Mechanical Arm + 자동 선별 시스템
-8. 증기 엔진으로 대용량 동력 확보
-9. 대규모 완전 자동화 공장 완성
+```mermaid
+flowchart TD
+  A[엔지니어 고글 제작] --> B[첫 동력 확보<br/>물레방아 또는 풍차]
+  B --> C[Millstone<br/>재료 분쇄 자동화]
+  C --> D[Press + Mixer<br/>안데사이트 합금 자동 생산]
+  D --> E[Crushing Wheels<br/>광석 2배 처리]
+  E --> F[황동 생산 라인<br/>중반 기계 해금]
+  F --> G[Mechanical Arm<br/>자동 선별 시스템]
+  G --> H[증기 엔진<br/>대용량 동력 확보]
+  H --> I[대규모 자동화 공장]
 ```

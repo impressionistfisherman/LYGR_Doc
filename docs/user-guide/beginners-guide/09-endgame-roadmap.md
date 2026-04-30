@@ -15,6 +15,22 @@ title: 9단계 — 엔드게임 로드맵
 > 처음부터 모든 모드를 한 번에 진행하면 복잡해집니다.  
 > 바닐라 진행 단계에 맞춰서 **자연스럽게** 모드를 하나씩 시작하세요!
 
+```mermaid
+flowchart TD
+  P0[Phase 0<br/>첫날부터 철 갑옷] --> P1[Phase 1<br/>철 갑옷부터 다이아 갑옷]
+  P1 --> P2[Phase 2<br/>다이아 갑옷부터 첫 모드 보스]
+  P2 --> P3[Phase 3<br/>첫 보스 처치부터 Mekanism 구축]
+  P3 --> P4[Phase 4<br/>Mekanism x5부터 AE2]
+  P4 --> P5[Phase 5<br/>엔드게임 통합]
+
+  P0 -.-> S0[Puffish Skills<br/>기본 포인트 투자]
+  P1 -.-> S1[RPG Classes<br/>직업 선택]
+  P2 -.-> S2[Silent Gear / Apotheosis / Create<br/>장비와 자동화 시작]
+  P3 -.-> S3[Mekanism / Spell Engine<br/>기술과 마법 본격화]
+  P4 -.-> S4[AE2 / Cataclysm<br/>자동 제작과 보스 확장]
+  P5 -.-> S5[메가베이스<br/>모든 시스템 통합]
+```
+
 ```
 [Phase 0] 첫날 \~ 철 갑옷
   → Puffish Skills: Controls에서 skill/puffish 검색 후 스킬 포인트 투자 시작
@@ -154,6 +170,13 @@ title: 9단계 — 엔드게임 로드맵
 
 ### 📋 바닐라 보스
 
+```mermaid
+flowchart LR
+  Elder[엘더 가디언] --> Wither[위더]
+  Wither --> Dragon[엔더 드래곤]
+  Dragon --> Cataclysm[Cataclysm 보스 루트]
+```
+
 | 순서 | 보스 | 위치 | 권장 장비 | 보상 |
 |------|------|------|-----------|------|
 | 1 | 엘더 가디언 | 해저 신전 | 다이아 갑옷 | 마이닝 피로 해제, 해면 블록 |
@@ -171,6 +194,17 @@ title: 9단계 — 엔드게임 로드맵
 ---
 
 ### 👹 Cataclysm 보스 (난이도 순)
+
+```mermaid
+flowchart LR
+  N[Netherite Monstrosity] --> C[Coral Golem]
+  C --> I[Ignis]
+  I --> L[Leviathan]
+  L --> W[Scorned Witch]
+  W --> A[Ancient Remnant]
+  A --> H[Harbinger]
+  H --> E[Ender Guardian]
+```
 
 | 순서 | 보스 | 특징 | 권장 장비 | 보상 |
 |------|------|------|-----------|------|

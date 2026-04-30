@@ -21,6 +21,18 @@ Apotheosis Epic 이상 장비 + 직업 스킬 중반 해금이 최소 권장 기
 
 ## 전체 던전 & 보스 구성
 
+```mermaid
+flowchart TD
+  Start[Cataclysm 입문] --> N[Netherite Monstrosity<br/>Soul Forge]
+  N --> E[Ender Guardian<br/>Ruined Citadel]
+  E --> H[The Harbinger<br/>Ancient Factory]
+  H --> A[Ancient Remnant<br/>Cursed Pyramid]
+  A --> L[The Leviathan<br/>Sunken City]
+  L --> S[Scylla<br/>Acropolis]
+  S --> M[Maledictus<br/>Frosted Prison]
+  M --> I[Ignis<br/>Burning Arena]
+```
+
 | 보스 | 던전 | 차원 | 추천 진행 순서 |
 |------|------|------|--------------|
 | **Netherite Monstrosity** | Soul Forge | 네더 | 1번째 |
