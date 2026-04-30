@@ -14,13 +14,13 @@ title: ⚙️ 설치 & 설정 가이드
 
 | 문서 | 내용 |
 |------|------|
-| [성능 최적화](./01-performance.md) | 렉 줄이기, 그래픽 설정, RAM 할당 |
-| [키 바인드](./02-keybinds.md) | 모드팩 전체 키 정리, 충돌 해결법 |
+| [성능 최적화](/docs/setup-guide/performance) | 렉 줄이기, 그래픽 설정, RAM 할당 |
+| [키 바인드](/docs/setup-guide/keybinds) | 모드팩 전체 키 정리, 충돌 해결법 |
 
 ---
 
 ## 이런 플레이어분들한테 필요해
 
-- 게임이 너무 버벅거려서 진행하기 어렵습니다 → [성능 최적화](./01-performance.md)
-- 키가 너무 많아서 무엇이 무엇인지 모르겠습니다 → [키 바인드](./02-keybinds.md)
-- 특정 키가 안 먹혀 → [키 바인드](./02-keybinds.md)
+- 게임이 너무 버벅거려서 진행하기 어렵습니다 → [성능 최적화](/docs/setup-guide/performance)
+- 키가 너무 많아서 무엇이 무엇인지 모르겠습니다 → [키 바인드](/docs/setup-guide/keybinds)
+- 특정 키가 안 먹혀 → [키 바인드](/docs/setup-guide/keybinds)

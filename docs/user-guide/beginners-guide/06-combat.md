@@ -339,7 +339,7 @@ title: 6단계 — 전투 & 성장
 - **Warrior** — 방패 + 검 스타일, 안정적인 생존
 - **Archer** — 거리를 유지하며 싸우기 좋아서 근접 전투가 부담스러운 플레이어에게 적합
 
-**자세한 내용:** [RPG Classes 가이드 →](../../classes/01-class-overview.md)
+**자세한 내용:** [RPG Classes 가이드 →](/docs/classes/class-overview)
 
 ---
 
@@ -357,7 +357,7 @@ title: 6단계 — 전투 & 성장
 일반(흰색) < 마법(파란색) < 희귀(노란색) < 영웅(분홍) < 신화(빨강)
 ```
 
-**자세한 내용:** [Apotheosis 가이드 →](../../apotheosis/01-overview.md)
+**자세한 내용:** [Apotheosis 가이드 →](/docs/apotheosis/overview)
 
 ---
 
@@ -396,4 +396,4 @@ title: 6단계 — 전투 & 성장
 
 ## 전투 마스터! 이제 마법도 배워봅시다
 
-👉 [7단계: 마법 & 스킬 →](./07-magic-skills.md)
+👉 [7단계: 마법 & 스킬 →](/docs/user-guide/beginners-guide/magic-skills)

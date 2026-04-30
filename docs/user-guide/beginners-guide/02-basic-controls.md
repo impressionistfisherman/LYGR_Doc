@@ -305,4 +305,4 @@ XYZ: 123.4 / 64.0 / -56.7
 
 ## 기본 조작 마스터!
 
-👉 [3단계: 첫날밤 생존 →](./03-first-night.md)
+👉 [3단계: 첫날밤 생존 →](/docs/user-guide/beginners-guide/first-night)

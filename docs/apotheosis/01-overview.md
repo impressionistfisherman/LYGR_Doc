@@ -43,24 +43,24 @@ Apotheosis를 처음 접하면 동시에 너무 많은 것이 쏟아집니다.
 ### 1. Affix 아이템
 몬스터 처치나 던전 상자에서 얻는 **특수 효과가 붙은 장비**입니다.
 이름 색상이 등급을 나타내며, 등급이 높을수록 더 강력한 효과가 붙습니다.
-→ [Affix 시스템 상세 가이드](./03-affix-system.md)
+→ [Affix 시스템 상세 가이드](/docs/apotheosis/affix-system)
 
 ### 2. 월드 티어 (World Tier)
 첫 Affix 아이템을 주운 뒤 **Ctrl + T** 를 눌러 활성화하는 난이도/보상 단계입니다.
 티어가 높을수록 더 강한 적과 더 좋은 장비가 등장합니다.
-→ [월드 티어 상세 가이드](./02-world-tiers.md)
+→ [월드 티어 상세 가이드](/docs/apotheosis/world-tiers)
 
 ### 3. 젬 & 소켓
 Affix 아이템의 소켓에 젬을 박아 능력치를 추가로 강화하는 시스템입니다.
-→ [젬 & 소켓 상세 가이드](./04-gems-and-sockets.md)
+→ [젬 & 소켓 상세 가이드](/docs/apotheosis/gems-and-sockets)
 
 ### 4. 작업대 시스템
 분해, 리포징, 증강 등 장비를 강화하는 전용 작업대 5종입니다.
-→ [작업대 상세 가이드](./05-workstations.md)
+→ [작업대 상세 가이드](/docs/apotheosis/workstations)
 
 ### 5. 인챈트 시스템
 ApothicEnchanting이 바닐라 인챈트를 완전히 개편합니다.
-→ [인챈트 시스템 상세 가이드](./06-enchanting.md)
+→ [인챈트 시스템 상세 가이드](/docs/apotheosis/enchanting)
 
 ---
 

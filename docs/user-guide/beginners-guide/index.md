@@ -127,4 +127,4 @@ A. 아이템을 다 떨어뜨리고 스폰 포인트로 돌아옵니다. 빨리 
 
 ## 지금 바로 시작해봅시다!
 
-👉 [1단계: 설치 & 첫 실행 →](./01-first-launch.md)
+👉 [1단계: 설치 & 첫 실행 →](/docs/user-guide/beginners-guide/first-launch)

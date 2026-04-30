@@ -208,4 +208,4 @@ CurseForge는 모드팩을 쉽게 설치하고 관리해주는 앱입니다.
 
 ## 설치 & 실행 완료!
 
-👉 [2단계: 기본 조작법 →](./02-basic-controls.md)
+👉 [2단계: 기본 조작법 →](/docs/user-guide/beginners-guide/basic-controls)

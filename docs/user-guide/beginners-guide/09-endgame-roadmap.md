@@ -301,33 +301,33 @@ flowchart LR
 
 | 모드 | 링크 | 핵심 내용 |
 |------|------|----------|
-| Apotheosis | [가이드 →](../../apotheosis/01-overview.md) | 인챈트 강화, Affix 아이템, 세계 티어 |
-| RPG Classes | [가이드 →](../../classes/01-class-overview.md) | 직업 선택, 전직, 직업별 스킬 |
-| Silent Gear | [가이드 →](../../silent-gear/01-overview.md) | 커스텀 장비 제작, 재료 특성 |
-| Cataclysm | [가이드 →](../../cataclysm/01-overview.md) | 8보스 공략, 드롭 아이템 |
-| 종합 장비 가이드 | [가이드 →](../../guide-recommended/01-archers-armory-arsenal.md) | Relics, Artifacts, Advanced Netherite |
+| Apotheosis | [가이드 →](/docs/apotheosis/overview) | 인챈트 강화, Affix 아이템, 세계 티어 |
+| RPG Classes | [가이드 →](/docs/classes/class-overview) | 직업 선택, 전직, 직업별 스킬 |
+| Silent Gear | [가이드 →](/docs/silent-gear/overview) | 커스텀 장비 제작, 재료 특성 |
+| Cataclysm | [가이드 →](/docs/cataclysm/overview) | 8보스 공략, 드롭 아이템 |
+| 종합 장비 가이드 | [가이드 →](/docs/guide-recommended/archers-armory-arsenal) | Relics, Artifacts, Advanced Netherite |
 
 ### 마법/스킬
 
 | 모드 | 링크 | 핵심 내용 |
 |------|------|----------|
-| Spell Engine | [가이드 →](../../spell-engine/01-overview.md) | 마법 습득, 원소 조합, 주문 목록 |
-| Puffish Skills | [가이드 →](../../skill-system/01-overview.md) | 스킬 트리, 포인트 배분, 빌드 |
+| Spell Engine | [가이드 →](/docs/spell-engine/overview) | 마법 습득, 원소 조합, 주문 목록 |
+| Puffish Skills | [가이드 →](/docs/skill-system/overview) | 스킬 트리, 포인트 배분, 빌드 |
 
 ### 기술/자동화
 
 | 모드 | 링크 | 핵심 내용 |
 |------|------|----------|
-| Create | [가이드 →](../../create/01-overview.md) | 발전기, 기계 목록, 자동화 |
-| Mekanism | [가이드 →](../../mekanism/01-overview.md) | 에너지, 광석 x5, 고급 장비 |
-| AE2 | [가이드 →](../../ae2/01-overview.md) | ME 네트워크, 자동 제작 |
+| Create | [가이드 →](/docs/create/overview) | 발전기, 기계 목록, 자동화 |
+| Mekanism | [가이드 →](/docs/mekanism/overview) | 에너지, 광석 x5, 고급 장비 |
+| AE2 | [가이드 →](/docs/ae2/overview) | ME 네트워크, 자동 제작 |
 
 ### 탐험/구조물
 
 | 모드 | 링크 | 핵심 내용 |
 |------|------|----------|
-| IDAS | [가이드 →](../../idas/01-overview.md) | 던전 목록, 보스, 보상 |
-| When Dungeons Arise | [가이드 →](../../wiki-reference/01-dungeons-arise.md) | 구조물 목록, 여관 시스템 |
+| IDAS | [가이드 →](/docs/idas/overview) | 던전 목록, 보스, 보상 |
+| When Dungeons Arise | [가이드 →](/docs/wiki-reference/dungeons-arise) | 구조물 목록, 여관 시스템 |
 
 ---
 

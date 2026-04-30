@@ -298,7 +298,7 @@ Evoker(주민우두머리) 처치 → 불사의 토템 드롭
 - 각종 퀘스트 NPC가 있음
 - 상인에게서 특별 아이템을 구매할 수 있습니다
 
-**자세한 내용:** [When Dungeons Arise 가이드 →](../../wiki-reference/01-dungeons-arise.md)
+**자세한 내용:** [When Dungeons Arise 가이드 →](/docs/wiki-reference/dungeons-arise)
 
 ---
 
@@ -320,7 +320,7 @@ Evoker(주민우두머리) 처치 → 불사의 토템 드롭
 | 중반 | 다이아 갑옷 | 지하묘지, 마법 탑 |
 | 후반 | 강화 장비 | 대형 요새, 엔드게임 던전 |
 
-**자세한 내용:** [IDAS 가이드 →](../../idas/01-overview.md)
+**자세한 내용:** [IDAS 가이드 →](/docs/idas/overview)
 
 ---
 
@@ -383,4 +383,4 @@ Evoker(주민우두머리) 처치 → 불사의 토템 드롭
 
 ## 탐험 마스터! 이제 더 강해집시다
 
-👉 [6단계: 전투 & 성장 →](./06-combat.md)
+👉 [6단계: 전투 & 성장 →](/docs/user-guide/beginners-guide/combat)
