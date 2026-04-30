@@ -54,6 +54,22 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en', 'ko'],
+        indexDocs: true,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 80,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/lygr-social-card.png',
