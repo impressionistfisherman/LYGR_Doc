@@ -10,7 +10,7 @@ const githubRepoUrl = `https://github.com/${githubRepository}`;
 const config: Config = {
   title: 'LYGR Docs',
   tagline: 'LYGR Minecraft RPG 모드팩 가이드',
-  favicon: 'img/favicon-compact.png',
+  favicon: 'img/favicon-full.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
